@@ -15,7 +15,6 @@ h1,h2,h3,h4,h5 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    margin-right: 51.5rem;
     background: lighten($primary-color, 2) ;
   }
 }
@@ -31,4 +30,5 @@ header {
   width: 100%;
 }
 // Imports
-@import 'home/home';
+@import "home/home";
+@import "menu/menu";
