@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-blog",
+  "version": "1.0.0",
+  "description": "\"# Portfolio\"",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImMyst/Portfolio.git"
+  },
+  "author": "Titouan GALVANI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ImMyst/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ImMyst/Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
