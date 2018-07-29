@@ -29,11 +29,7 @@ header {
   z-index: 2;
   width: 100%;
 }
-// Imports
-@import "home/home";
-@import "menu/menu";
-@import "set-color/color";
-@import "about/about";
+
 
 #main-footer {
   text-align: center;
@@ -42,6 +38,13 @@ header {
   color: set-text-color($primary-color);
   height: 60px;
 }
+
+// Imports
+@import "home/home";
+@import "menu/menu";
+@import "set-color/color";
+@import "about/about";
+@import "articles/main";
 
 @import "responsive/mobile";
 
