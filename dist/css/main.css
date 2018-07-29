@@ -225,6 +225,23 @@ main {
   border-bottom: #47bb76 5px solid;
   margin-bottom: 1rem; }
 
+.article .btn {
+  text-align: center; }
+
+.article .read-more {
+  padding: 0.3rem;
+  background-color: #47bb76;
+  transition: 800ms ease;
+  text-transform: uppercase;
+  outline: none; }
+
+.article .read-more:hover {
+  background-color: #515151;
+  color: #4fd78a; }
+
+.ticket {
+  text-align: justify; }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;

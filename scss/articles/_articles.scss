@@ -1,0 +1,26 @@
+.article {
+  .bg-article {
+    background: lighten($primary-color, 5);
+    padding: 1rem;
+    border-bottom: $secondary-color 5px solid;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .read-more {
+    padding: 0.3rem;
+    background-color: $secondary-color;
+    transition: 800ms ease;
+    text-transform: uppercase;
+    outline: none;
+  }
+  .read-more:hover {
+    background-color: lighten($primary-color, 5);
+    color: #4fd78a;
+  }
+}
+
+@import "tickets/difficultes";
