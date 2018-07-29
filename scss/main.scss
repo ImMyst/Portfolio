@@ -32,5 +32,16 @@ header {
 // Imports
 @import "home/home";
 @import "menu/menu";
-@import "responsive/mobile";
 @import "set-color/color";
+@import "about/about";
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($primary-color, 10);
+  color: set-text-color($primary-color);
+  height: 60px;
+}
+
+@import "responsive/mobile";
+
