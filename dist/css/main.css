@@ -22,7 +22,7 @@ header {
 
 body {
   background-color: #444;
-  color: white;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -50,6 +50,7 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
+      color: #fff;
       padding: 0.4rem; }
       main .icons a:hover {
         color: #47bb76;
@@ -70,7 +71,7 @@ main {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: white;
+    background: #fff;
     transition: all 0.3s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -133,7 +134,7 @@ main {
     font-weight: 600;
     text-transform: uppercase;
     padding: 1rem 0;
-    color: white;
+    color: #fff;
     transition: all 0.3s ease-out; }
     .menu .nav-link:hover {
       color: #47bb76; }

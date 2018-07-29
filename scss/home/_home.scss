@@ -1,7 +1,9 @@
+@import "../set-color/color";
+
 body {
   @include background;
   background-color: $primary-color;
-  color: white;
+  color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -20,6 +22,7 @@ main {
     margin-top: 1rem;
 
     a {
+      color: set-text-color($primary-color);
       padding: 0.4rem;
 
       &:hover {
