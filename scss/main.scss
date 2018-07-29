@@ -16,7 +16,6 @@ h1,h2,h3,h4,h5 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: lighten($primary-color, 2);
-    margin-right: 52.5rem;
   }
 }
 
@@ -47,6 +46,7 @@ header {
 @import "set-color/color";
 @import "about/about";
 @import "articles/articles";
+@import "contact/contact";
 
 @import "responsive/mobile";
 
