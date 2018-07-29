@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ImMyst/Portfolio#readme",
   "devDependencies": {
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.9.2",
+    "semantic-ui-css": "^2.3.3",
+    "vue": "^2.5.16"
   }
 }
