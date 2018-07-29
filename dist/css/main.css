@@ -60,10 +60,10 @@ main {
     margin-top: 1rem; }
     main .icons a {
       color: #fff;
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.3s ease-out; }
       main .icons a:hover {
-        color: #47bb76;
-        transition: all 0.3s ease-out; }
+        color: #47bb76; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -233,8 +233,8 @@ main {
 .article .read-more {
   padding: 0.3rem;
   text-transform: uppercase;
-  transition: 0.3s ease-in-out;
-  border: 2px solid #47bb76; }
+  border: 2px solid #47bb76;
+  transition: all 0.3s ease-out; }
 
 .article .read-more:hover {
   background-color: #47bb76;
@@ -245,7 +245,7 @@ main {
   background-color: #50d78a; }
 
 .article .article-title a {
-  transition: 0.3s ease-in-out; }
+  transition: all 0.3s ease-out; }
 
 .article .article-title a:hover {
   font-size: 20px;

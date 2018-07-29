@@ -13,8 +13,8 @@
   .read-more {
     padding: 0.3rem;
     text-transform: uppercase;
-    transition: 0.3s ease-in-out;
     border: 2px solid $secondary-color;
+    @include easeOut
   }
   .read-more:hover {
     background-color: $secondary-color;
@@ -27,7 +27,7 @@
 
   .article-title {
     a {
-      transition: 0.3s ease-in-out;
+    @include easeOut
     }
     a:hover {
       font-size: 20px;
