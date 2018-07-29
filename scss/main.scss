@@ -3,35 +3,35 @@
 * {
   box-sizing: border-box;
   ::selection {
-    background: lighten($secondary-color, 20);
+    background-color: #caf7cc;
   }
 }
 
 // Headings
 
 h1,h2,h3,h4,h5 {
-  margin: 0 !important;
+  margin: 0;
 
   &.lg-heading {
-    font-size: 4.5rem !important;
+    font-size: 4.5rem;
   }
   &.sm-heading {
-    margin-bottom: 2rem !important;
-    padding: 0.2rem 1rem !important;
-    background: lighten($primary-color, 2) !important;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: lighten($primary-color, 2);
   }
 }
 
 a {
-  color: white !important;
-  text-decoration: none !important;
+  color: white ;
+  text-decoration: none;
 }
 
 header {
-  position: fixed !important;
-  z-index: 2 !important;
-  width: 100% !important;
-  border-top: 6px $secondary-color solid !important;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border-top: 6px $secondary-color solid;
 }
 
 

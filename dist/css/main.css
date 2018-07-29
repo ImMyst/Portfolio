@@ -2,26 +2,26 @@
 * {
   box-sizing: border-box; }
   * ::selection {
-    background: #91d7ad; }
+    background-color: #caf7cc; }
 
 h1, h2, h3, h4, h5 {
-  margin: 0 !important; }
+  margin: 0; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading, h4.lg-heading, h5.lg-heading {
-    font-size: 4.5rem !important; }
+    font-size: 4.5rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading, h5.sm-heading {
-    margin-bottom: 2rem !important;
-    padding: 0.2rem 1rem !important;
-    background: #494949 !important; }
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: #494949; }
 
 a {
-  color: white !important;
-  text-decoration: none !important; }
+  color: white;
+  text-decoration: none; }
 
 header {
-  position: fixed !important;
-  z-index: 2 !important;
-  width: 100% !important;
-  border-top: 6px #47bb76 solid !important; }
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border-top: 6px #47bb76 solid; }
 
 #main-footer {
   text-align: center;
@@ -275,16 +275,23 @@ main {
         color: #000; }
 
 form {
-  padding: 3rem 15rem; }
-  form input, form textarea {
-    color: white !important;
-    background: #6a6a6a !important;
-    border: 1.5px solid #9d9d9d !important;
-    margin-top: 1rem !important; }
+  padding: 3rem; }
+  form fieldset,
+  form h3 {
+    text-align: center; }
+  form input,
+  form textarea {
+    width: 50%;
+    color: white;
+    background: #6a6a6a;
+    border: 1.5px solid #9d9d9d;
+    box-shadow: 0 0 0 0 !important; }
+  form:focus {
+    outline: 2px solid #47bb76 !important; }
   form ::placeholder {
-    color: #52bf7e !important;
-    font-weight: 600 !important;
-    opacity: 0.8 !important; }
+    color: #52bf7e;
+    font-weight: 600;
+    opacity: 0.8; }
 
 @media screen and (max-width: 768px) {
   main {
