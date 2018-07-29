@@ -19,7 +19,7 @@
   .read-more:hover {
     background-color: $secondary-color;
     padding: 0.5rem;
-    font-size: 17px;
+    font-size: 17px !important;
   }
   .read-more:active {
     background-color: #50d78a;

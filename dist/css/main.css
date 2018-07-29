@@ -1,25 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 * {
   box-sizing: border-box; }
+  * ::selection {
+    background: #91d7ad; }
 
 h1, h2, h3, h4, h5 {
-  margin: 0; }
+  margin: 0 !important; }
   h1.lg-heading, h2.lg-heading, h3.lg-heading, h4.lg-heading, h5.lg-heading {
-    font-size: 4.5rem; }
+    font-size: 4.5rem !important; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading, h5.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: #494949; }
+    margin-bottom: 2rem !important;
+    padding: 0.2rem 1rem !important;
+    background: #494949 !important; }
 
 a {
-  color: white;
-  text-decoration: none; }
+  color: white !important;
+  text-decoration: none !important; }
 
 header {
-  position: fixed;
-  z-index: 2;
-  width: 100%;
-  border-top: 6px #47bb76 solid; }
+  position: fixed !important;
+  z-index: 2 !important;
+  width: 100% !important;
+  border-top: 6px #47bb76 solid !important; }
 
 #main-footer {
   text-align: center;
@@ -62,7 +64,7 @@ main {
       padding: 0.4rem;
       transition: all 0.3s ease-out; }
       main .icons a:hover {
-        color: #47bb76; }
+        color: #47bb76 !important; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -168,7 +170,7 @@ main {
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #47bb76; }
+      color: #47bb76 !important; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -179,7 +181,7 @@ main {
     color: #fff;
     transition: all 0.3s ease-out; }
     .menu .nav-link:hover {
-      color: #47bb76; }
+      color: #47bb76 !important; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -238,7 +240,7 @@ main {
 .article .read-more:hover {
   background-color: #47bb76;
   padding: 0.5rem;
-  font-size: 17px; }
+  font-size: 17px !important; }
 
 .article .read-more:active {
   background-color: #50d78a; }
@@ -271,6 +273,18 @@ main {
       color: #000; }
       .boxes div:hover span {
         color: #000; }
+
+form {
+  padding: 3rem 15rem; }
+  form input, form textarea {
+    color: white !important;
+    background: #6a6a6a !important;
+    border: 1.5px solid #9d9d9d !important;
+    margin-top: 1rem !important; }
+  form ::placeholder {
+    color: #52bf7e !important;
+    font-weight: 600 !important;
+    opacity: 0.8 !important; }
 
 @media screen and (max-width: 768px) {
   main {

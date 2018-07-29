@@ -22,3 +22,19 @@
     }
   }
 }
+
+form {
+  padding: 3rem 15rem;
+  input, textarea {
+    color: white !important;
+    background: lighten($primary-color, 15) !important;
+    border: 1.5px solid lighten($primary-color, 35) !important;
+    margin-top: 1rem !important;
+  }
+
+  ::placeholder {
+    color: lighten($secondary-color, 3) !important;
+    font-weight: 600 !important;
+    opacity: 0.8 !important;
+  }
+}
