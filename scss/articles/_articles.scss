@@ -19,7 +19,7 @@
   }
   .read-more:hover {
     background-color: lighten($primary-color, 5);
-    color: #4fd78a;
+    color: $secondary-color;
   }
 }
 

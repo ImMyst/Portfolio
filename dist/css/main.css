@@ -18,7 +18,8 @@ a {
 header {
   position: fixed;
   z-index: 2;
-  width: 100%; }
+  width: 100%;
+  border-top: 6px #47bb76 solid; }
 
 #main-footer {
   text-align: center;
@@ -237,7 +238,7 @@ main {
 
 .article .read-more:hover {
   background-color: #515151;
-  color: #4fd78a; }
+  color: #47bb76; }
 
 .ticket {
   text-align: justify; }
