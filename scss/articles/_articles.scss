@@ -5,11 +5,9 @@
     border-bottom: $secondary-color 5px solid;
     margin-bottom: 1rem;
   }
-
   .btn {
     text-align: center;
   }
-
   .read-more {
     padding: 0.3rem;
     text-transform: uppercase;
@@ -24,10 +22,9 @@
   .read-more:active {
     background-color: #50d78a;
   }
-
   .article-title {
     a {
-    @include easeOut
+      @include easeOut
     }
     a:hover {
       font-size: 20px;

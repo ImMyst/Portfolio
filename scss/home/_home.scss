@@ -1,5 +1,4 @@
 @import "../set-color/color";
-
 body {
   @include background;
   background-color: $primary-color;
@@ -19,18 +18,15 @@ main {
   min-height: calc(100vh - 60px);
   .icons {
     margin-top: 1rem;
-
     a {
       color: set-text-color($primary-color);
       padding: 0.4rem;
       @include easeOut;
-
       &:hover {
         color: $secondary-color !important;
       }
     }
   }
-
   &#home {
     overflow: hidden;
     h1 {
