@@ -22,7 +22,11 @@
 }
 
 form {
-  padding: 3rem;
+
+  fieldset {
+    border: none;
+    padding: 3rem;
+  }
   fieldset,
   h3 {
     text-align: center

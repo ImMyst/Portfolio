@@ -98,7 +98,9 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #articles, #difficultes, #integration, #contact, .ticket {
+    padding: 1rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -276,24 +278,29 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-form {
+form fieldset {
+  border: none;
   padding: 3rem; }
-  form fieldset,
-  form h3 {
-    text-align: center; }
-  form input,
-  form textarea {
-    width: 50%;
-    color: white;
-    background: #6a6a6a;
-    border: 1.5px solid #9d9d9d;
-    box-shadow: 0 0 0 0 !important; }
-  form:focus {
-    outline: 2px solid #47bb76 !important; }
-  form ::placeholder {
-    color: #52bf7e;
-    font-weight: 600;
-    opacity: 0.8; }
+
+form fieldset,
+form h3 {
+  text-align: center; }
+
+form input,
+form textarea {
+  width: 50%;
+  color: white;
+  background: #6a6a6a;
+  border: 1.5px solid #9d9d9d;
+  box-shadow: 0 0 0 0 !important; }
+
+form:focus {
+  outline: 2px solid #47bb76 !important; }
+
+form ::placeholder {
+  color: #52bf7e;
+  font-weight: 600;
+  opacity: 0.8; }
 
 @media screen and (max-width: 768px) {
   main {
@@ -323,7 +330,9 @@ form {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #articles, #difficultes, #integration, #contact, .ticket {
+    padding: 1rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
