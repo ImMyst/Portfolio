@@ -21,20 +21,31 @@ My name is **Titouan Galvani**, I'm a french **web developer**, and currently a 
 
 ## FAQ
 
-* What's my age ?
-
+- [Personal questions](#personal-questions)
+    - [How old are you](#i'm-currently-20-years-old.-:man:)
+    - [How long have you been coding ?](#how-long-have-you-been-coding-?)
+    - [How do you learn stuff](#how-do-you-learn-stuff-?)
+- [Tech questions](#tech-questions)
+    - [What code editor do you use ?](#what-code-editor-do-you-use-?)
+- [Fun questions](#fun-questions)
+    - [McDonald's or Big Fernand ? :hamburger:](#mcdonald's-or-big-fernand-?-:hamburger:)
+### Personal questions
+#### How old are you ?
 I'm currently 20 years old. :man:
 
-* How long have you been coding ?
-
+#### How long have you been coding ?
 I'ts been 3 years now :grimacing:, I'm a really young developer, so I have many things to learn and master.
 
-* How do you learn stuff ?
-
+#### How do you learn stuff ?
 I follow my formation at [Ynov Lyon](https://www.ynov.com/), i'ts a developer and programming (web and application) and systems and networks oriented formation. Also, I try to learn on my own by navigating on the net and find some projects to do with new technologies :books:. 
 
-* McDonald's or Big Fernand ? :hamburger: 
+### Tech questions
+#### What code editor do you use ?
+I used to code with **Atom** in my second year, I switched to **PHP Storm** for my intership at Webqam (so about 6/7 weeks). Now I fully used **VSCode** which I :heart:.
 
+
+### Fun questions
+#### McDonald's or Big Fernand ? :hamburger: 
 Really ? Big Fernand 10000%, except for the price maybe :thinking:.
 
 Made with :heart: by :
