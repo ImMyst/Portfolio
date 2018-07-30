@@ -1,5 +1,4 @@
 @import "../responsive/mobile";
-
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -7,7 +6,6 @@
   top: 35px;
   cursor: pointer;
   @include easeOut;
-
   .btn-line {
     width: 28px;
     height: 3px;
@@ -15,10 +13,8 @@
     background: set-text-color($primary-color);
     @include easeOut
   }
-
   &.close {
     transform: rotate(180deg);
-
     .btn-line {
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
@@ -39,12 +35,11 @@
   width: 100%;
   opacity: 0.9;
   visibility: hidden;
-
   &.show {
     visibility: visible;
   }
-
-  &-branding, &-nav {
+  &-branding,
+  &-nav {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -54,7 +49,6 @@
     height: 100vh;
     overflow: hidden;
   }
-
   &-nav {
     margin: 0;
     padding: 0;
@@ -62,21 +56,17 @@
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
-
     &.show {
       transform: translate3d(0, 0, 0);
     }
   }
-
   &-branding {
     background: $primary-color;
     transform: translate3d(0, 100%, 0);
     @include easeOut;
-
     &.show {
       transform: translate3d(0, 0, 0);
     }
-
     .portrait {
       width: 250px;
       height: 250px;
@@ -85,20 +75,16 @@
       border: solid 3px $secondary-color;
     }
   }
-
   .nav-item {
     transform: translate3d(600px, 0, 0);
     @include easeOut;
-
     &.show {
       transform: translate3d(0, 0, 0);
     }
-
-    &.current > a {
+    &.current>a {
       color: $secondary-color !important;
     }
   }
-
   .nav-link {
     display: inline-block;
     position: relative;
@@ -108,7 +94,6 @@
     padding: 1rem 0;
     color: set-text-color($primary-color);
     @include easeOut;
-
     &:hover {
       color: $secondary-color !important;
     }

@@ -1,5 +1,4 @@
 @import "variables/variables";
-
 * {
   box-sizing: border-box;
   ::selection {
@@ -8,10 +7,12 @@
 }
 
 // Headings
-
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
-
   &.lg-heading {
     font-size: 4.5rem;
   }
@@ -23,7 +24,7 @@ h1,h2,h3,h4,h5 {
 }
 
 a {
-  color: white ;
+  color: white;
   text-decoration: none;
 }
 
@@ -33,7 +34,6 @@ header {
   width: 100%;
   border-top: 6px $secondary-color solid;
 }
-
 
 #main-footer {
   text-align: center;
@@ -49,7 +49,6 @@ header {
 @import "set-color/color";
 @import "about/about";
 @import "articles/articles";
+@import "companies/company";
 @import "contact/contact";
-
 @import "responsive/mobile";
-

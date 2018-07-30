@@ -22,7 +22,6 @@
 }
 
 form {
-
   fieldset {
     border: none;
     padding: 3rem;
@@ -38,9 +37,9 @@ form {
     background: lighten($primary-color, 15);
     border: 1.5px solid lighten($primary-color, 35);
     box-shadow: 0 0 0 0 !important;
-    }
-    &:focus {
-      outline: 2px solid $secondary-color !important;
+  }
+  &:focus {
+    outline: 2px solid $secondary-color !important;
   }
   ::placeholder {
     color: lighten($secondary-color, 3);

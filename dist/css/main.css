@@ -4,11 +4,23 @@
   * ::selection {
     background-color: #caf7cc; }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading, h4.lg-heading, h5.lg-heading {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading,
+  h4.lg-heading,
+  h5.lg-heading {
     font-size: 4.5rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading, h5.sm-heading {
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading,
+  h4.sm-heading,
+  h5.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: #494949; }
@@ -99,7 +111,11 @@ main {
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
-  #articles, #difficultes, #integration, #contact, .ticket {
+  #articles,
+  #difficultes,
+  #integration,
+  #contact,
+  .ticket {
     padding: 1rem; } }
 
 @media screen and (max-width: 500px) {
@@ -203,7 +219,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -258,6 +274,21 @@ main {
   text-align: justify;
   padding: 1.5rem;
   background: #515151; }
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .companies .company {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem 2.5rem; }
+    .companies .company .psm, .companies .company .webqam {
+      padding: 1.25rem 2rem;
+      background: #515151;
+      border-bottom: #47bb76 5px solid;
+      margin-bottom: 1rem; }
 
 .boxes {
   display: flex;
@@ -331,7 +362,11 @@ form ::placeholder {
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
-  #articles, #difficultes, #integration, #contact, .ticket {
+  #articles,
+  #difficultes,
+  #integration,
+  #contact,
+  .ticket {
     padding: 1rem; } }
 
 @media screen and (max-width: 500px) {
