@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
+// Colors 
 $primary-color: #444;
 $secondary-color: #47bb76;
-
+// Image setting
 $show-home-image: true;
-
+// Images
 $home-image: url(../img/home-image.jpg);
 $portrait-image: url(../img/portrait.jpg);
 $portrait-small: url(../img/portrait-small.jpg);
 $background-opacity: 0.9;
-
+// Transition
 @mixin easeOut {
   transition: all 0.3s ease-out;
 }
 
+// Set background image
 @mixin background {
-@if $show-home-image {
-  &#bg-img {
-    background: $home-image;
-    background-attachment: fixed;
-    background-size: cover;
-    &:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba($primary-color, $background-opacity);
-      z-index: -1;
+  @if $show-home-image {
+    &#bg-img {
+      background: $home-image;
+      background-attachment: fixed;
+      background-size: cover;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba($primary-color, $background-opacity);
+        z-index: -1;
+      }
     }
   }
-}
 }
