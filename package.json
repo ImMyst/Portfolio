@@ -2,7 +2,7 @@
   "name": "portfolio-blog",
   "version": "1.0.0",
   "description": "\"# Portfolio\"",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/ImMyst/Portfolio#readme",
   "devDependencies": {
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
   }
 }
