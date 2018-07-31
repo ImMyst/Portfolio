@@ -1,27 +1,32 @@
-.companies {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    .company {
-        position: relative;
-        text-align: center;
-        align-items: center;
-        padding: 1.5rem 2.5rem;
-
-        .psm, .webqam {
-            padding: 1.25rem 2rem;
-            background: lighten($primary-color, 5);
-            border-bottom: $secondary-color 5px solid;
-            margin-bottom: 1rem;
+.company {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    .psm,
+    .webqam {
+        padding: 1.25rem 2rem;
+        margin-right: 1.5rem;
+        background: lighten($primary-color, 5);
+        border-bottom: $secondary-color 5px solid;
+        margin-bottom: 1rem;
+        // width: 51.875rem;
+        // height: 37.5rem;
+        &__link {
+            overflow: hidden;
+            display: inline-block;
+            border: 3px solid $secondary-color;
+            border-radius: 50%;
+            background-color: lighten($primary-color, 10);
+            transform: scale(0.6);
+            :hover {
+                transform: scale(0.7);
+            }
+            img {
+                border: none;
+                transition: 0.2s ease-in-out;
+            }
         }
-
-        // .psm {
-        //     float: left;
-        //     width: 50%;
-        // }
-        // .webqam {
-        //     float: right;
-        //     width: 50%;
-        // }
     }
 }

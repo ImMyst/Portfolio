@@ -275,20 +275,34 @@ main {
   padding: 1.5rem;
   background: #515151; }
 
-.companies {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-  .companies .company {
-    position: relative;
-    text-align: center;
-    align-items: center;
-    padding: 1.5rem 2.5rem; }
-    .companies .company .psm, .companies .company .webqam {
-      padding: 1.25rem 2rem;
-      background: #515151;
-      border-bottom: #47bb76 5px solid;
-      margin-bottom: 1rem; }
+.company {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  align-items: center;
+  padding: 1.5rem 2.5rem; }
+  .company .psm,
+  .company .webqam {
+    padding: 1.25rem 2rem;
+    margin-right: 1.5rem;
+    background: #515151;
+    border-bottom: #47bb76 5px solid;
+    margin-bottom: 1rem; }
+    .company .psm__link,
+    .company .webqam__link {
+      overflow: hidden;
+      display: inline-block;
+      border: 3px solid #47bb76;
+      border-radius: 50%;
+      background-color: #5e5e5e;
+      transform: scale(0.6); }
+      .company .psm__link :hover,
+      .company .webqam__link :hover {
+        transform: scale(0.7); }
+      .company .psm__link img,
+      .company .webqam__link img {
+        border: none;
+        transition: 0.2s ease-in-out; }
 
 .boxes {
   display: flex;
