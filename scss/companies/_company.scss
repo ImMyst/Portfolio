@@ -1,27 +1,15 @@
-.companies {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    .company {
-        position: relative;
-        text-align: center;
-        align-items: center;
-        padding: 1.5rem 2.5rem;
+.company {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
 
-        .psm, .webqam {
-            padding: 1.25rem 2rem;
-            background: lighten($primary-color, 5);
-            border-bottom: $secondary-color 5px solid;
-            margin-bottom: 1rem;
-        }
-
-        // .psm {
-        //     float: left;
-        //     width: 50%;
-        // }
-        // .webqam {
-        //     float: right;
-        //     width: 50%;
-        // }
+    .psm, .webqam {
+        padding: 1.25rem 2rem;
+        margin-right: 1.5rem;
+        background: lighten($primary-color, 5);
+        border-bottom: $secondary-color 5px solid;
+        margin-bottom: 1rem;
     }
 }
