@@ -1,8 +1,8 @@
 .company {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
     padding: 1.5rem 2.5rem;
     .psm,
     .webqam {
@@ -11,8 +11,6 @@
         background: lighten($primary-color, 5);
         border-bottom: $secondary-color 5px solid;
         margin-bottom: 1rem;
-        // width: 51.875rem;
-        // height: 37.5rem;
         &__link {
             overflow: hidden;
             display: inline-block;

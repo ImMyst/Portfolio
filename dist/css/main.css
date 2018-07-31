@@ -242,7 +242,7 @@ main {
 
 .article .bg-article {
   background: #515151;
-  padding: 1rem;
+  padding: 1.25rem 2.25rem;
   border-bottom: #47bb76 5px solid;
   margin-bottom: 1rem; }
 
@@ -277,9 +277,9 @@ main {
 
 .company {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   text-align: center;
-  align-items: center;
+  align-items: stretch;
   padding: 1.5rem 2.5rem; }
   .company .psm,
   .company .webqam {
