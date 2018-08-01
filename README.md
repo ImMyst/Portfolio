@@ -37,7 +37,7 @@ My name is **Titouan Galvani**, I'm a french **web developer**, and currently a 
 - [Tech questions](#tech-questions)
     - [What code editor do you use ?](#what-code-editor-do-you-use-?)
 - [Fun questions](#fun-questions)
-    - [McDonald's or Big Fernand ? :hamburger:](#mcdonald's-or-big-fernand-?-:hamburger:)
+    - [McDonald's or Big Fernand ? :hamburger:](#mcdonalds-or-big-fernand--hamburger)
 <br><br>
 ### Personal questions
 #### How old are you ?
