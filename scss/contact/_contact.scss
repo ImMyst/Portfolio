@@ -34,9 +34,25 @@ form {
   textarea {
     width: 50%;
     color: white;
-    background: lighten($primary-color, 15);
-    border: 1.5px solid lighten($primary-color, 35);
+    background: $primary-color;
+    border: 1.5px solid white !important;
     box-shadow: 0 0 0 0 !important;
+
+    &[type="submit"] {
+      height: 3rem;
+      border: 1.5px solid white;
+      border-radius: 4px;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: lighten($secondary-color, 3);
+      @include easeOut;
+
+      &:hover {
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+      }
+    }
   }
   &:focus {
     outline: 2px solid $secondary-color !important;

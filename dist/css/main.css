@@ -52,7 +52,8 @@ body {
   body#bg-img {
     background: url(../img/home-image.jpg);
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    overflow: hidden; }
     body#bg-img:after {
       content: '';
       position: absolute;
@@ -61,7 +62,7 @@ body {
       width: 100%;
       height: 100%;
       background: rgba(68, 68, 68, 0.9);
-      z-index: -1; }
+      z-index: -2; }
 
 .text-secondary {
   color: #47bb76; }
@@ -69,6 +70,12 @@ body {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
+  main canvas {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.3; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -335,9 +342,23 @@ form input,
 form textarea {
   width: 50%;
   color: white;
-  background: #6a6a6a;
-  border: 1.5px solid #9d9d9d;
+  background: #444;
+  border: 1.5px solid white !important;
   box-shadow: 0 0 0 0 !important; }
+  form input[type="submit"],
+  form textarea[type="submit"] {
+    height: 3rem;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #52bf7e;
+    transition: all 0.3s ease-out; }
+    form input[type="submit"]:hover,
+    form textarea[type="submit"]:hover {
+      background: #47bb76;
+      color: #000; }
 
 form:focus {
   outline: 2px solid #47bb76 !important; }
