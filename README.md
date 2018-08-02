@@ -11,6 +11,7 @@
             - [How do you learn stuff ?](#how-do-you-learn-stuff)
         - [Tech questions](#tech-questions)
             - [What code editor do you use ?](#what-code-editor-do-you-use)
+            - [What Javascript library do you like the most ?](#what-javascript-library-do-you-like-the-most)
         - [Fun questions](#fun-questions)
             - [McDonald's or Big Fernand ? :hamburger:](#mcdonalds-or-big-fernand--hamburger)
 <br><br>
@@ -51,8 +52,10 @@ I follow my formation at [Ynov Lyon](https://www.ynov.com/), i'ts a developer an
 
 ### Tech questions
 #### What code editor do you use ?
-I used to code with **Atom** in my second year, I switched to **PHP Storm** for my intership at Webqam (so about 6/7 weeks). Now I fully used **VSCode** which I :heart:.
+I used to code with **Atom** in my second year, I switched to **PHP Storm** for my intership at Webqam (so about 6/7 weeks). Now I'm fully using **VSCode** which I :heart:.
 
+#### What Javascript library do you like the most ?
+For now, I really like **VueJS** and what comes around (Vuetify, Vue UI, NuxtJS ...). But I don't have much experiences with the others so I guess VueJS for now.
 
 ### Fun questions
 #### McDonald's or Big Fernand ? :hamburger: 
