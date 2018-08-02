@@ -42,7 +42,10 @@ My name is **Titouan Galvani**, I'm a french **web developer**, and currently a 
 - [Tech questions](#tech-questions)
     - [What code editor do you use ?](#what-code-editor-do-you-use-?)
 - [Fun questions](#fun-questions)
-    - [McDonald's or Big Fernand ? :hamburger:](#mcdonalds-or-big-fernand--hamburger)
+    - [Coffee :coffee: or tea :tea: ?](#coffee-coffee-or-tea-tea)
+    - [Night :bridge_at_night: or day :city_sunrise: ?](#night-bridgeatnight-or-day-citysunrise)
+    - [If you were an animal, what would you be :dog: :pig: :cow: :bug: :penguin: :octocat:](#if-you-were-an-animal-what-would-you-be-dog-pig-cow-bug-penguin-octocat)
+    - [Last question ... Are you all right ?](#last-question--are-you-all-right)
 <br><br>
 ### Personal questions
 #### How old are you ?
