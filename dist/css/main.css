@@ -166,16 +166,45 @@ main {
   text-align: justify;
   padding: 1.5rem;
   background: #515151; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
 
 .ticket {
   text-align: justify;
   padding: 1.5rem;
   background: #515151; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
 
 .ticket {
   text-align: justify;
   padding: 1.5rem;
   background: #515151; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
+
+.ticket {
+  text-align: justify;
+  padding: 1.5rem;
+  background: #515151; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
 
 .ticket {
   text-align: justify;
