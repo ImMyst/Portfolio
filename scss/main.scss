@@ -2,7 +2,8 @@
 * {
   box-sizing: border-box;
   ::selection {
-    background-color: #caf7cc;
+    color: set-text-color($primary-color);
+    background-color: lighten($secondary-color, 25);
   }
 }
 
@@ -52,6 +53,7 @@ header {
 @import "pages/articles";
 @import "pages/tickets/difficultes";
 @import "pages/tickets/integration";
+@import "pages/tickets/borne";
 @import "pages/company";
 @import "pages/contact";
 @import "menu/menu";

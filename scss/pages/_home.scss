@@ -56,7 +56,7 @@ main {
     a {
       font-weight: 700;
       box-shadow: inset 0 -2px $secondary-color;
-      transition: 0.2s ease-in-out;
+      @include easeOut;
       &:hover {
         background-color: $secondary-color;
         color: set-text-color($secondary-color);

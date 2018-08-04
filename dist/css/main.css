@@ -2,7 +2,8 @@
 * {
   box-sizing: border-box; }
   * ::selection {
-    background-color: #caf7cc; }
+    color: set-text-color(#444);
+    background-color: #a4ddbb; }
 
 h1,
 h2,
@@ -102,7 +103,7 @@ main {
     #home-footer span a {
       font-weight: 700;
       box-shadow: inset 0 -2px #47bb76;
-      transition: 0.2s ease-in-out; }
+      transition: all 0.3s ease-out; }
       #home-footer span a:hover {
         background-color: #47bb76;
         color: #000; }
@@ -175,6 +176,17 @@ main {
   text-align: justify;
   padding: 1.5rem;
   background: #515151; }
+
+.ticket {
+  text-align: justify;
+  padding: 1.5rem;
+  background: #515151; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
 
 .company {
   display: grid;
