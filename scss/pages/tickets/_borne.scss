@@ -2,6 +2,7 @@
   text-align: justify;
   padding: 1.5rem;
   background: lighten($primary-color, 5);
+  font-size: 17px;
   a {
       box-shadow: inset 0 -2px $secondary-color;
       @include easeOut;
