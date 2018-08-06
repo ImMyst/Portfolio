@@ -111,17 +111,34 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3';
+  grid-template-columns: repeat(4, 3fr); }
   .about-info .bio-image {
-    grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #47bb76 3px solid; }
+    border: #47bb76 3px solid;
+    display: block;
+    margin-bottom: 2rem; }
+  .about-info .side-info {
+    grid-area: sidebio;
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #47bb76 5px solid; }
+    .about-info .side-info .content {
+      padding: 0 5rem 0rem 5rem;
+      line-height: 1.75; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    height: 13rem;
+    font-size: 1.5rem;
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #47bb76 5px solid; }
+    .about-info .bio p {
+      font-size: 1.25rem; }
   .about-info .job {
+    position: relative;
+    top: -13rem;
     background: #515151;
     padding: 0.5rem;
     border-bottom: #47bb76 5px solid; }
@@ -335,7 +352,7 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   #articles,
   #difficultes,
@@ -469,7 +486,7 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   #articles,
   #difficultes,

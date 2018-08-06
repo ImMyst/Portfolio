@@ -1,19 +1,40 @@
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3';
+  grid-template-columns: repeat(4, 3fr);
+
   .bio-image {
-    grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
     border: $secondary-color 3px solid;
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .side-info {
+    grid-area: sidebio;
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+    .content {
+      padding: 0 5rem 0rem 5rem;
+      line-height: 1.75;
+    }
   }
   .bio {
     grid-area: bio;
+    height: 13rem;
     font-size: 1.5rem;
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+    p {
+      font-size: 1.25rem;
+    }
   }
   .job {
+    position: relative;
+    top: -13rem;
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
