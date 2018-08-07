@@ -2,7 +2,12 @@
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3';
-  grid-template-columns: repeat(4, 3fr);
+  grid-template-columns: repeat(4, 4fr);
+
+  .text-grey {
+    color: $grey-color;
+    font-size: 15px;
+  }
 
   .bio-image {
     margin: auto;
@@ -53,7 +58,7 @@
   }
   .job {
     position: relative;
-    top: -13rem;
+    top: -70rem;
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;

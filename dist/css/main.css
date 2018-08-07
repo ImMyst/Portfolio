@@ -112,7 +112,10 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3';
-  grid-template-columns: repeat(4, 3fr); }
+  grid-template-columns: repeat(4, 4fr); }
+  .about-info .text-grey {
+    color: #b7b7b7;
+    font-size: 15px; }
   .about-info .bio-image {
     margin: auto;
     border-radius: 50%;
@@ -150,7 +153,7 @@ main {
       font-size: 1.25rem; }
   .about-info .job {
     position: relative;
-    top: -13rem;
+    top: -70rem;
     background: #515151;
     padding: 0.5rem;
     border-bottom: #47bb76 5px solid; }
