@@ -127,6 +127,18 @@ main {
     .about-info .side-info .content {
       padding: 0 5rem 0rem 5rem;
       line-height: 1.75; }
+      .about-info .side-info .content .dev-web span {
+        font-weight: 600;
+        margin-left: 2rem;
+        text-transform: uppercase;
+        box-shadow: inset 0 -2px #47bb76; }
+      .about-info .side-info .content .dev-web img {
+        display: inline-flex;
+        padding: 0.5rem; }
+      .about-info .side-info .content .dev-web .react {
+        margin-left: 4rem; }
+      .about-info .side-info .content .dev-web .symfony {
+        margin-left: 3rem; }
   .about-info .bio {
     grid-area: bio;
     height: 13rem;
