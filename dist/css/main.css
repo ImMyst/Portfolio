@@ -147,8 +147,9 @@ main {
     height: 15rem;
     font-size: 1.5rem;
     background: #515151;
-    padding: 0.5rem;
-    border-bottom: #47bb76 5px solid; }
+    padding: 1rem;
+    border-bottom: #47bb76 5px solid;
+    text-align: justify; }
     .about-info .bio p {
       font-size: 1.25rem; }
     .about-info .bio a {
@@ -159,9 +160,10 @@ main {
         color: #000; }
   .about-info .job {
     position: relative;
+    text-align: justify;
     top: -65rem;
     background: #515151;
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: #47bb76 5px solid; }
     .about-info .job-1 {
       grid-area: job1; }
@@ -171,9 +173,10 @@ main {
       grid-area: job3; }
   .about-info .formation {
     position: relative;
-    top: -34.9rem;
+    text-align: justify;
+    top: -40.35rem;
     background: #515151;
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: #47bb76 5px solid; }
     .about-info .formation-1 {
       grid-area: formation1; }

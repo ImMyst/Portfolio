@@ -47,8 +47,9 @@
     height: 15rem;
     font-size: 1.5rem;
     background: lighten($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
+    text-align: justify;
     p {
       font-size: 1.25rem;
     }
@@ -63,9 +64,10 @@
   }
   .job {
     position: relative;
+    text-align: justify;
     top: -65rem;
     background: lighten($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
     &-1 {
       grid-area: job1;
@@ -80,9 +82,10 @@
 
   .formation {
     position: relative;
-    top: -34.9rem;
+    text-align: justify;
+    top: -40.35rem;
     background: lighten($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
     &-1 {
       grid-area: formation1;
