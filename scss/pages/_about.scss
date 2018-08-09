@@ -1,7 +1,7 @@
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3';
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2';
   grid-template-columns: repeat(4, 4fr);
   .text-grey {
     color: $grey-color;
@@ -69,4 +69,19 @@
       grid-area: job3;
     }
   }
+
+  .formation {
+    position: relative;
+    top: -65rem;
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+    &-1 {
+      grid-area: formation1;
+    }
+    &-2 {
+      grid-area: formation2;
+    }
+  }
+  
 }

@@ -111,7 +111,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3';
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2';
   grid-template-columns: repeat(4, 4fr); }
   .about-info .text-grey {
     color: #b7b7b7;
@@ -163,6 +163,16 @@ main {
       grid-area: job2; }
     .about-info .job-3 {
       grid-area: job3; }
+  .about-info .formation {
+    position: relative;
+    top: -65rem;
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #47bb76 5px solid; }
+    .about-info .formation-1 {
+      grid-area: formation1; }
+    .about-info .formation-2 {
+      grid-area: formation2; }
 
 .article .bg-article {
   background: #515151;
