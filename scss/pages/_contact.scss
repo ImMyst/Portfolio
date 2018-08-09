@@ -37,7 +37,6 @@ form {
     background: $primary-color;
     border: 1.5px solid white !important;
     box-shadow: 0 0 0 0 !important;
-
     &[type="submit"] {
       height: 3rem;
       border: 1.5px solid white;
@@ -47,7 +46,6 @@ form {
       text-transform: uppercase;
       color: lighten($secondary-color, 3);
       @include easeOut;
-
       &:hover {
         background: $secondary-color;
         color: set-text-color($secondary-color);
