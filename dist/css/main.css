@@ -144,16 +144,22 @@ main {
         margin-left: 3rem; }
   .about-info .bio {
     grid-area: bio;
-    height: 13rem;
+    height: 15rem;
     font-size: 1.5rem;
     background: #515151;
     padding: 0.5rem;
     border-bottom: #47bb76 5px solid; }
     .about-info .bio p {
       font-size: 1.25rem; }
+    .about-info .bio a {
+      box-shadow: inset 0 -2px #47bb76;
+      transition: all 0.3s ease-out; }
+      .about-info .bio a:hover {
+        background-color: #47bb76;
+        color: #000; }
   .about-info .job {
     position: relative;
-    top: -70rem;
+    top: -65rem;
     background: #515151;
     padding: 0.5rem;
     border-bottom: #47bb76 5px solid; }
@@ -165,7 +171,7 @@ main {
       grid-area: job3; }
   .about-info .formation {
     position: relative;
-    top: -65rem;
+    top: -34.9rem;
     background: #515151;
     padding: 0.5rem;
     border-bottom: #47bb76 5px solid; }

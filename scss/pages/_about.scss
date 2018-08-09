@@ -44,7 +44,7 @@
   }
   .bio {
     grid-area: bio;
-    height: 13rem;
+    height: 15rem;
     font-size: 1.5rem;
     background: lighten($primary-color, 5);
     padding: 0.5rem;
@@ -52,10 +52,18 @@
     p {
       font-size: 1.25rem;
     }
+    a {
+      box-shadow: inset 0 -2px $secondary-color;
+      @include easeOut;
+      &:hover {
+        background-color: $secondary-color;
+        color: set-text-color($secondary-color);
+      }
+    }
   }
   .job {
     position: relative;
-    top: -70rem;
+    top: -65rem;
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
@@ -72,7 +80,7 @@
 
   .formation {
     position: relative;
-    top: -65rem;
+    top: -34.9rem;
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
