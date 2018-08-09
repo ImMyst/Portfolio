@@ -111,8 +111,9 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2';
-  grid-template-columns: repeat(4, 4fr); }
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2' 'slider0 slider slider slider';
+  grid-template-columns: repeat(4, 4fr);
+  overflow-y: hidden; }
   .about-info .text-grey {
     color: #b7b7b7;
     font-size: 15px; }
@@ -161,7 +162,7 @@ main {
   .about-info .job {
     position: relative;
     text-align: justify;
-    top: -65rem;
+    top: -67rem;
     background: #515151;
     padding: 1rem;
     border-bottom: #47bb76 5px solid; }
@@ -171,6 +172,60 @@ main {
       grid-area: job2; }
     .about-info .job-3 {
       grid-area: job3; }
+  .about-info .slider {
+    position: relative;
+    text-align: justify;
+    top: -87.2rem;
+    background: #515151;
+    padding: 1rem;
+    border-bottom: #47bb76 5px solid;
+    grid-area: slider; }
+    .about-info .slider-1, .about-info .slider-2, .about-info .slider-3 {
+      animation-duration: 25s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite; }
+    .about-info .slider-1 {
+      animation-name: anim-1;
+      z-index: -1; }
+    .about-info .slider-2 {
+      animation-name: anim-2;
+      z-index: -1; }
+    .about-info .slider-3 {
+      animation-name: anim-3;
+      z-index: -1; }
+
+@keyframes anim-1 {
+  0%, 8.3% {
+    left: -20%;
+    opacity: 0; }
+  8.3%, 25% {
+    left: 0%;
+    opacity: 1; }
+  33.33%, 100% {
+    left: 110%;
+    opacity: 0; } }
+
+@keyframes anim-2 {
+  0%, 33.33% {
+    left: -20%;
+    opacity: 0; }
+  41.63%, 58.29% {
+    left: 0%;
+    opacity: 1; }
+  66.66%, 100% {
+    left: 110%;
+    opacity: 0; } }
+
+@keyframes anim-3 {
+  0%, 66.66% {
+    left: -20%;
+    opacity: 0; }
+  74.96%, 91.62% {
+    left: 0%;
+    opacity: 1; }
+  100% {
+    left: 110%;
+    opacity: 0; } }
   .about-info .formation {
     position: relative;
     text-align: justify;
