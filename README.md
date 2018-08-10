@@ -22,12 +22,12 @@
 ## :tada: :clap: WELCOME :clap: :tada:
 
 Welcome to my site, feel free to navigate through it, and **contact me** if you have any *suggestions*, *questions* or if you want to **recruit me**. Or maybe if you just want to contact me because you need it :wink:. 
+
+The website is now hosted online by **Netlify**, you can find it here : https://titouan-galvani.netlify.com/ !
 <br><br>
 ## What is this ?
 
 My website is a small, simple and easy one. I use only **HTML**, **SASS**, **Pure CSS** and some **native Javascript** and **particles.js** for the homepage for now, but I will upgrade it so it looks really great as the days passed. I don't put some advanced frameworks as VueJS (only implemented yet) or backend like NodeJS or any database. Yeah I know, i'ts lame :no_mouth:.
-
-For now, the website is hosted locally at my place, so don't search everywhere and ask everyone where to find it, you just can't. I think I will use **Netlify** or **Now** to have a good hosting system.
 <br><br>
 ## What about me ? 
 
