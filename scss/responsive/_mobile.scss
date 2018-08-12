@@ -8,9 +8,17 @@
     display: block;
     text-align: center;
 
+    .side-info {
+      margin-bottom: 2rem;
+    }
+
     .job, .formation {
       position: relative;
       top: 0;
+      margin-bottom: 1rem;
+    }
+    .job-3 {
+      margin-bottom: 2rem;
     }
   }
 }
@@ -55,6 +63,18 @@
     .job, .formation {
       position: relative;
       top: 0;
+    }
+    .side-info {
+      margin-bottom: 2rem;
+    }
+
+    .job, .formation {
+      position: relative;
+      top: 0;
+      margin-bottom: 1rem;
+    }
+    .job-3 {
+      margin-bottom: 2rem;
     }
   }
   #articles,
