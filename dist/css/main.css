@@ -76,7 +76,7 @@ main {
     z-index: -1;
     top: 0;
     left: 0;
-    opacity: 0.4; }
+    opacity: 0.5; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -438,11 +438,15 @@ form ::placeholder {
     .pure-control-group input[type=text],
     .pure-control-group input[type=email],
     .pure-control-group input[type=tel] {
-      margin: auto; } }
+      margin: auto; }
+  #home-footer {
+    margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  #home-footer {
+    display: none; } }
 
 .menu-btn {
   position: absolute;
@@ -590,8 +594,12 @@ form ::placeholder {
     .pure-control-group input[type=text],
     .pure-control-group input[type=email],
     .pure-control-group input[type=tel] {
-      margin: auto; } }
+      margin: auto; }
+  #home-footer {
+    margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  #home-footer {
+    display: none; } }
