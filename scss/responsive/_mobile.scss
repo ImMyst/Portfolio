@@ -42,9 +42,25 @@
   #articles,
   #difficultes,
   #integration,
+  #bilan,
+  #taches,
+  #borne,
+  #methodes,
   #contact,
-  .ticket {
+  .ticket
+    {
     padding: 1rem;
+  }
+  
+  .company {
+    display: block;
+    line-height: 1.5;
+
+    .webqam,
+    .psm {
+      margin-left: -5rem;
+      margin-right: -5rem;
+    }
   }
 }
 

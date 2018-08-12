@@ -418,9 +418,20 @@ form ::placeholder {
   #articles,
   #difficultes,
   #integration,
+  #bilan,
+  #taches,
+  #borne,
+  #methodes,
   #contact,
   .ticket {
-    padding: 1rem; } }
+    padding: 1rem; }
+  .company {
+    display: block;
+    line-height: 1.5; }
+    .company .webqam,
+    .company .psm {
+      margin-left: -5rem;
+      margin-right: -5rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -552,9 +563,20 @@ form ::placeholder {
   #articles,
   #difficultes,
   #integration,
+  #bilan,
+  #taches,
+  #borne,
+  #methodes,
   #contact,
   .ticket {
-    padding: 1rem; } }
+    padding: 1rem; }
+  .company {
+    display: block;
+    line-height: 1.5; }
+    .company .webqam,
+    .company .psm {
+      margin-left: -5rem;
+      margin-right: -5rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
