@@ -111,7 +111,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2' 'slider0 slider slider slider';
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2';
   grid-template-columns: repeat(4, 4fr);
   overflow-y: hidden; }
   .about-info .text-grey {
@@ -413,7 +413,7 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bio' 'sidebio' 'job1' 'job2' 'job3' 'formation1 formation2';
     grid-template-columns: 1fr; }
   #articles,
   #difficultes,
@@ -569,7 +569,7 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bio' 'sidebio' 'job1' 'job2' 'job3' 'formation1 formation2';
     grid-template-columns: 1fr; }
   #articles,
   #difficultes,

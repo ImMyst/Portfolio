@@ -36,7 +36,7 @@
     }
   }
   .about-info {
-    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bio' 'sidebio' 'job1' 'job2' 'job3' 'formation1 formation2';
     grid-template-columns: 1fr;
   }
   #articles,
