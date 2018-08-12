@@ -45,12 +45,15 @@
   }
   .bio {
     grid-area: bio;
-    height: 15rem;
+  }
+  
+  .bio-content {
     font-size: 1.5rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
     text-align: justify;
+    margin-bottom: 2rem;
     p {
       font-size: 1.25rem;
     }
@@ -66,7 +69,7 @@
   .job {
     position: relative;
     text-align: justify;
-    top: -67rem;
+    top: -66rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
@@ -84,7 +87,7 @@
   .formation {
     position: relative;
     text-align: justify;
-    top: -40.35rem;
+    top: -66.35rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
@@ -92,7 +95,7 @@
       grid-area: formation1;
     }
     &-2 {
-      grid-area: formation2;
+      grid-area: formation2; 
     }
   }
 }
