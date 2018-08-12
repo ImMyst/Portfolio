@@ -431,7 +431,14 @@ form ::placeholder {
     .company .webqam,
     .company .psm {
       margin-left: -5rem;
-      margin-right: -5rem; } }
+      margin-right: -5rem; }
+  .pure-control-group {
+    margin-left: -10rem;
+    margin-right: -10rem; }
+    .pure-control-group input[type=text],
+    .pure-control-group input[type=email],
+    .pure-control-group input[type=tel] {
+      margin: auto; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -576,7 +583,14 @@ form ::placeholder {
     .company .webqam,
     .company .psm {
       margin-left: -5rem;
-      margin-right: -5rem; } }
+      margin-right: -5rem; }
+  .pure-control-group {
+    margin-left: -10rem;
+    margin-right: -10rem; }
+    .pure-control-group input[type=text],
+    .pure-control-group input[type=email],
+    .pure-control-group input[type=tel] {
+      margin: auto; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {

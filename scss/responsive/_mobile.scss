@@ -47,19 +47,25 @@
   #borne,
   #methodes,
   #contact,
-  .ticket
-    {
+  .ticket {
     padding: 1rem;
   }
-  
   .company {
     display: block;
     line-height: 1.5;
-
     .webqam,
     .psm {
       margin-left: -5rem;
       margin-right: -5rem;
+    }
+  }
+  .pure-control-group {
+    margin-left: -10rem;
+    margin-right: -10rem;
+    input[type=text],
+    input[type=email],
+    input[type=tel] {
+      margin: auto;
     }
   }
 }
