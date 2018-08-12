@@ -133,16 +133,16 @@ main {
       line-height: 1.75; }
       .about-info .side-info .content .dev-web span {
         font-weight: 600;
-        margin-left: 2rem;
         text-transform: uppercase;
         box-shadow: inset 0 -2px #47bb76; }
       .about-info .side-info .content .dev-web img {
         display: inline-flex;
         padding: 0.5rem; }
-      .about-info .side-info .content .dev-web .react {
-        margin-left: 4rem; }
-      .about-info .side-info .content .dev-web .symfony {
-        margin-left: 3rem; }
+      .about-info .side-info .content .dev-web .basic,
+      .about-info .side-info .content .dev-web .framework-js,
+      .about-info .side-info .content .dev-web .framework-php {
+        display: flex;
+        justify-content: space-between; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .bio-content {
@@ -163,7 +163,7 @@ main {
   .about-info .job {
     position: relative;
     text-align: justify;
-    top: -66rem;
+    top: -58rem;
     background: #515151;
     padding: 1rem;
     border-bottom: #47bb76 5px solid; }
@@ -176,7 +176,7 @@ main {
   .about-info .formation {
     position: relative;
     text-align: justify;
-    top: -66.35rem;
+    top: -50rem;
     background: #515151;
     padding: 1rem;
     border-bottom: #47bb76 5px solid; }
@@ -387,6 +387,14 @@ form ::placeholder {
   font-weight: 600;
   opacity: 0.8; }
 
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about-info {
+    display: block;
+    text-align: center; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0; } }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -414,8 +422,13 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bio' 'sidebio' 'job1' 'job2' 'job3' 'formation1 formation2';
-    grid-template-columns: 1fr; }
+    display: block;
+    text-align: center;
+    margin-left: -3rem;
+    margin-right: -3rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0; }
   #articles,
   #difficultes,
   #integration,
@@ -424,7 +437,8 @@ form ::placeholder {
   #borne,
   #methodes,
   #contact,
-  .ticket {
+  .ticket,
+  .about-info {
     padding: 1rem; }
   .company {
     display: block;
@@ -543,6 +557,14 @@ form ::placeholder {
 .nav-item:nth-child(5) {
   transition-delay: 0.5s; }
 
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about-info {
+    display: block;
+    text-align: center; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0; } }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -570,8 +592,13 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bio' 'sidebio' 'job1' 'job2' 'job3' 'formation1 formation2';
-    grid-template-columns: 1fr; }
+    display: block;
+    text-align: center;
+    margin-left: -3rem;
+    margin-right: -3rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0; }
   #articles,
   #difficultes,
   #integration,
@@ -580,7 +607,8 @@ form ::placeholder {
   #borne,
   #methodes,
   #contact,
-  .ticket {
+  .ticket,
+  .about-info {
     padding: 1rem; }
   .company {
     display: block;

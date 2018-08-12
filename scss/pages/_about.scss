@@ -26,7 +26,6 @@
       .dev-web {
         span {
           font-weight: 600;
-          margin-left: 2rem;
           text-transform: uppercase;
           box-shadow: inset 0 -2px $secondary-color;
         }
@@ -34,11 +33,11 @@
           display: inline-flex;
           padding: 0.5rem;
         }
-        .react {
-          margin-left: 4rem;
-        }
-        .symfony {
-          margin-left: 3rem;
+        .basic,
+        .framework-js,
+        .framework-php {
+          display: flex;
+          justify-content: space-between;
         }
       }
     }
@@ -46,7 +45,6 @@
   .bio {
     grid-area: bio;
   }
-  
   .bio-content {
     font-size: 1.5rem;
     background: lighten($primary-color, 5);
@@ -69,7 +67,7 @@
   .job {
     position: relative;
     text-align: justify;
-    top: -66rem;
+    top: -58rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
@@ -83,11 +81,10 @@
       grid-area: job3;
     }
   }
-  
   .formation {
     position: relative;
     text-align: justify;
-    top: -66.35rem;
+    top: -50rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
@@ -95,7 +92,7 @@
       grid-area: formation1;
     }
     &-2 {
-      grid-area: formation2; 
+      grid-area: formation2;
     }
   }
 }
