@@ -250,6 +250,9 @@ main {
     .ticket a:hover {
       background-color: #47bb76;
       color: #fff; }
+  .ticket img {
+    border-radius: 10%;
+    margin-right: 2.25rem; }
 
 .ticket {
   text-align: justify;
