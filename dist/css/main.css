@@ -274,6 +274,30 @@ main {
       background-color: #47bb76;
       color: #fff; }
 
+.ticket {
+  text-align: justify;
+  padding: 1.5rem;
+  background: #515151;
+  font-size: 17px; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
+
+.ticket {
+  text-align: justify;
+  padding: 1.5rem;
+  background: #515151;
+  font-size: 17px; }
+  .ticket a {
+    box-shadow: inset 0 -2px #47bb76;
+    transition: all 0.3s ease-out; }
+    .ticket a:hover {
+      background-color: #47bb76;
+      color: #fff; }
+
 .company {
   display: grid;
   grid-template-columns: auto auto;
@@ -302,6 +326,8 @@ main {
       .company .webqam__link img {
         border: none;
         transition: 0.2s ease-in-out; }
+  .company p {
+    text-align: justify; }
 
 .boxes {
   display: flex;
