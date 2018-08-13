@@ -217,7 +217,9 @@ main {
 
 .kata {
   border-radius: 10%;
-  margin-right: 2.25rem; }
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
 
 .ticket {
   text-align: justify;
@@ -432,12 +434,24 @@ form ::placeholder {
     .pure-control-group input[type=email],
     .pure-control-group input[type=tel] {
       margin: auto; }
+  .reunion {
+    width: 350px;
+    height: 200px; }
+  .kata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
   #home-footer {
     margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  .reunion {
+    width: 250px;
+    height: 150px; }
   #home-footer {
     display: none; } }
 
@@ -615,11 +629,23 @@ form ::placeholder {
     .pure-control-group input[type=email],
     .pure-control-group input[type=tel] {
       margin: auto; }
+  .reunion {
+    width: 350px;
+    height: 200px; }
+  .kata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
   #home-footer {
     margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  .reunion {
+    width: 250px;
+    height: 150px; }
   #home-footer {
     display: none; } }
