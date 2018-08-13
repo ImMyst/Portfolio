@@ -31,6 +31,9 @@
       margin-bottom: 1rem;
     }
   }
+  .conclusion {
+    width: 650px;
+  }
 }
 
 @include mediaMd {
@@ -155,7 +158,9 @@
     align-content: center;
     float: none;
   }
-
+  .conclusion {
+    width: 400px;
+  }
   #home-footer {
     margin-top: -4rem;
   }
@@ -177,5 +182,8 @@
   .notin {
     width: 250px;
     height: 150px;
+  }
+  .conclusion {
+    width: 250px;
   }
 }

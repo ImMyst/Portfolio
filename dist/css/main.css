@@ -282,17 +282,11 @@ legend {
         width: 425px;
         height: 225px; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+.conclusion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .company {
   display: grid;
@@ -403,7 +397,9 @@ form ::placeholder {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem; }
+  .conclusion {
+    width: 650px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -505,6 +501,8 @@ form ::placeholder {
     margin-right: auto;
     align-content: center;
     float: none; }
+  .conclusion {
+    width: 400px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -520,7 +518,9 @@ form ::placeholder {
   .satab,
   .notin {
     width: 250px;
-    height: 150px; } }
+    height: 150px; }
+  .conclusion {
+    width: 250px; } }
 
 .menu-btn {
   position: absolute;
@@ -637,7 +637,9 @@ form ::placeholder {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem; }
+  .conclusion {
+    width: 650px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -739,6 +741,8 @@ form ::placeholder {
     margin-right: auto;
     align-content: center;
     float: none; }
+  .conclusion {
+    width: 400px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -754,4 +758,6 @@ form ::placeholder {
   .satab,
   .notin {
     width: 250px;
-    height: 150px; } }
+    height: 150px; }
+  .conclusion {
+    width: 250px; } }
