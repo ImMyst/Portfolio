@@ -228,6 +228,26 @@ main {
     .return:hover i {
       color: #fff; }
 
+.prev-next {
+  display: flex;
+  justify-content: space-between; }
+  .prev-next .previous,
+  .prev-next .next {
+    padding: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #47bb76;
+    transition: all 0.3s ease-out; }
+    .prev-next .previous i,
+    .prev-next .next i {
+      margin-right: 1rem; }
+    .prev-next .previous:hover,
+    .prev-next .next:hover {
+      background: #47bb76; }
+      .prev-next .previous:hover i,
+      .prev-next .next:hover i {
+        color: #fff; }
+
 .content {
   margin-top: 2rem; }
 

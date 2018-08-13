@@ -14,6 +14,28 @@
         }
     }
 }
+
+.prev-next {
+    display: flex;
+    justify-content: space-between;
+    .previous,
+    .next {
+        padding: .5rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: 1px solid $secondary-color;
+        @include easeOut;
+        i {
+            margin-right: 1rem;
+        }
+        &:hover {
+            background: $secondary-color;
+            i {
+                color: set-text-color($primary-color);
+            }
+        }
+    }
+}
 .content {
     margin-top: 2rem;
 }
