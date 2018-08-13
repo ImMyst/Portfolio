@@ -384,13 +384,12 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem; }
+  align-items: center; }
   .boxes div {
     font-size: 1.25rem;
     border: 2px solid #fff;
     padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     transition: all 0.3s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
@@ -399,43 +398,12 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-form fieldset {
-  border: none;
-  padding: 3rem; }
-
-form fieldset,
-form h3 {
-  text-align: center; }
-
-form input,
-form textarea {
-  width: 50%;
-  color: white;
-  background: #444;
-  border: 1.5px solid white !important;
-  box-shadow: 0 0 0 0 !important; }
-  form input[type="submit"],
-  form textarea[type="submit"] {
-    height: 3rem;
-    border: 1.5px solid white;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #52bf7e;
-    transition: all 0.3s ease-out; }
-    form input[type="submit"]:hover,
-    form textarea[type="submit"]:hover {
-      background: #47bb76;
-      color: #000; }
-
-form:focus {
-  outline: 2px solid #47bb76 !important; }
-
-form ::placeholder {
-  color: #52bf7e;
-  font-weight: 600;
-  opacity: 0.8; }
+iframe {
+  display: block;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #47bb76; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .about-info {
@@ -460,7 +428,9 @@ form ::placeholder {
       margin-right: auto;
       margin-bottom: 1rem; }
   .conclusion {
-    width: 650px; } }
+    width: 650px; }
+  iframe {
+    width: 700px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -528,13 +498,6 @@ form ::placeholder {
     .company .psm {
       margin-left: -5rem;
       margin-right: -5rem; }
-  .pure-control-group {
-    margin-left: -10rem;
-    margin-right: -10rem; }
-    .pure-control-group input[type=text],
-    .pure-control-group input[type=email],
-    .pure-control-group input[type=tel] {
-      margin: auto; }
   .reunion {
     width: 350px;
     height: 200px; }
@@ -576,6 +539,8 @@ form ::placeholder {
     width: 300px; }
   .boutique {
     width: 300px; }
+  iframe {
+    width: 500px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -600,6 +565,8 @@ form ::placeholder {
     width: 200px; }
   .boutique {
     width: 200px; }
+  iframe {
+    width: 400px; }
   #home-footer {
     display: none; } }
 
@@ -720,7 +687,9 @@ form ::placeholder {
       margin-right: auto;
       margin-bottom: 1rem; }
   .conclusion {
-    width: 650px; } }
+    width: 650px; }
+  iframe {
+    width: 700px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -788,13 +757,6 @@ form ::placeholder {
     .company .psm {
       margin-left: -5rem;
       margin-right: -5rem; }
-  .pure-control-group {
-    margin-left: -10rem;
-    margin-right: -10rem; }
-    .pure-control-group input[type=text],
-    .pure-control-group input[type=email],
-    .pure-control-group input[type=tel] {
-      margin: auto; }
   .reunion {
     width: 350px;
     height: 200px; }
@@ -836,6 +798,8 @@ form ::placeholder {
     width: 300px; }
   .boutique {
     width: 300px; }
+  iframe {
+    width: 500px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -860,5 +824,7 @@ form ::placeholder {
     width: 200px; }
   .boutique {
     width: 200px; }
+  iframe {
+    width: 400px; }
   #home-footer {
     display: none; } }
