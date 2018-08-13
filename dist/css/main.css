@@ -215,12 +215,6 @@ main {
   font-size: 20px;
   box-shadow: inset 0 -2px 0 0 #47bb76; }
 
-.kata {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: left;
-  margin: 0 1rem 1rem 0; }
-
 .ticket {
   text-align: justify;
   padding: 1.5rem;
@@ -232,6 +226,29 @@ main {
     .ticket a:hover {
       background-color: #47bb76;
       color: #fff; }
+
+.kata {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
+
+.zenos {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.borne {
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.option {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
 
 .reunion {
   border-radius: 10%;
@@ -242,29 +259,34 @@ main {
 legend {
   text-align: center; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+.images {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+  .images .links {
+    box-shadow: inset 0 0; }
+    .images .links:hover {
+      background: #515151; }
+    .images .links .groussard,
+    .images .links .satab,
+    .images .links .notin {
+      border-radius: 10%;
+      transition: all 0.3s ease-out;
+      cursor: pointer; }
+      .images .links .groussard:hover,
+      .images .links .satab:hover,
+      .images .links .notin:hover {
+        width: 425px;
+        height: 225px; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+.conclusion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .company {
   display: grid;
@@ -360,12 +382,24 @@ form ::placeholder {
     text-align: center; }
     .about-info .side-info {
       margin-bottom: 2rem; }
-    .about-info .job, .about-info .formation {
+    .about-info .job,
+    .about-info .formation {
       position: relative;
       top: 0;
       margin-bottom: 1rem; }
     .about-info .job-3 {
-      margin-bottom: 2rem; } }
+      margin-bottom: 2rem; }
+  .images {
+    display: block; }
+    .images .groussard,
+    .images .satab,
+    .images .notin {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem; }
+  .conclusion {
+    width: 650px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -398,12 +432,14 @@ form ::placeholder {
     text-align: center;
     margin-left: -3rem;
     margin-right: -3rem; }
-    .about-info .job, .about-info .formation {
+    .about-info .job,
+    .about-info .formation {
       position: relative;
       top: 0; }
     .about-info .side-info {
       margin-bottom: 2rem; }
-    .about-info .job, .about-info .formation {
+    .about-info .job,
+    .about-info .formation {
       position: relative;
       top: 0;
       margin-bottom: 1rem; }
@@ -443,6 +479,30 @@ form ::placeholder {
     margin-right: auto;
     align-content: center;
     float: none; }
+  .zenos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  .images {
+    display: block; }
+    .images .groussard,
+    .images .satab,
+    .images .notin {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem; }
+  .borne,
+  .option {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  .conclusion {
+    width: 400px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -453,7 +513,14 @@ form ::placeholder {
     width: 250px;
     height: 150px; }
   #home-footer {
-    display: none; } }
+    display: none; }
+  .groussard,
+  .satab,
+  .notin {
+    width: 250px;
+    height: 150px; }
+  .conclusion {
+    width: 250px; } }
 
 .menu-btn {
   position: absolute;
@@ -555,12 +622,24 @@ form ::placeholder {
     text-align: center; }
     .about-info .side-info {
       margin-bottom: 2rem; }
-    .about-info .job, .about-info .formation {
+    .about-info .job,
+    .about-info .formation {
       position: relative;
       top: 0;
       margin-bottom: 1rem; }
     .about-info .job-3 {
-      margin-bottom: 2rem; } }
+      margin-bottom: 2rem; }
+  .images {
+    display: block; }
+    .images .groussard,
+    .images .satab,
+    .images .notin {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem; }
+  .conclusion {
+    width: 650px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -593,12 +672,14 @@ form ::placeholder {
     text-align: center;
     margin-left: -3rem;
     margin-right: -3rem; }
-    .about-info .job, .about-info .formation {
+    .about-info .job,
+    .about-info .formation {
       position: relative;
       top: 0; }
     .about-info .side-info {
       margin-bottom: 2rem; }
-    .about-info .job, .about-info .formation {
+    .about-info .job,
+    .about-info .formation {
       position: relative;
       top: 0;
       margin-bottom: 1rem; }
@@ -638,6 +719,30 @@ form ::placeholder {
     margin-right: auto;
     align-content: center;
     float: none; }
+  .zenos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  .images {
+    display: block; }
+    .images .groussard,
+    .images .satab,
+    .images .notin {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 1rem; }
+  .borne,
+  .option {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  .conclusion {
+    width: 400px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -648,4 +753,11 @@ form ::placeholder {
     width: 250px;
     height: 150px; }
   #home-footer {
-    display: none; } }
+    display: none; }
+  .groussard,
+  .satab,
+  .notin {
+    width: 250px;
+    height: 150px; }
+  .conclusion {
+    width: 250px; } }
