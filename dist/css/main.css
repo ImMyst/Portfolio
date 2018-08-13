@@ -215,6 +215,43 @@ main {
   font-size: 20px;
   box-shadow: inset 0 -2px 0 0 #47bb76; }
 
+.return {
+  padding: .5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid #47bb76;
+  transition: all 0.3s ease-out; }
+  .return i {
+    margin-right: 1rem; }
+  .return:hover {
+    background: #47bb76; }
+    .return:hover i {
+      color: #fff; }
+
+.prev-next {
+  display: flex;
+  justify-content: space-between; }
+  .prev-next .previous,
+  .prev-next .next {
+    padding: .5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #47bb76;
+    transition: all 0.3s ease-out; }
+    .prev-next .previous:hover,
+    .prev-next .next:hover {
+      background: #47bb76; }
+      .prev-next .previous:hover i,
+      .prev-next .next:hover i {
+        color: #fff; }
+  .prev-next .next i {
+    margin-left: 1rem; }
+  .prev-next .previous i {
+    margin-right: 1rem; }
+
+.content {
+  margin-top: 2rem; }
+
 .ticket {
   text-align: justify;
   padding: 1.5rem;
@@ -478,8 +515,9 @@ form ::placeholder {
   #contact,
   #decouverte,
   #jarvis,
-  #decision
-.ticket,
+  #decision,
+  #bilan2017,
+  .ticket,
   .about-info {
     padding: 1rem; }
   .company {
@@ -737,8 +775,9 @@ form ::placeholder {
   #contact,
   #decouverte,
   #jarvis,
-  #decision
-.ticket,
+  #decision,
+  #bilan2017,
+  .ticket,
   .about-info {
     padding: 1rem; }
   .company {
