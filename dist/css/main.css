@@ -226,6 +226,8 @@ main {
     .ticket a:hover {
       background-color: #47bb76;
       color: #fff; }
+  .ticket legend {
+    text-align: center; }
 
 .kata {
   border-radius: 10%;
@@ -283,6 +285,12 @@ legend {
         height: 225px; }
 
 .conclusion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.atelier {
   border-radius: 10%;
   display: block;
   margin-left: auto;
@@ -503,6 +511,8 @@ form ::placeholder {
     float: none; }
   .conclusion {
     width: 400px; }
+  .atelier {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -512,15 +522,17 @@ form ::placeholder {
   .reunion {
     width: 250px;
     height: 150px; }
-  #home-footer {
-    display: none; }
   .groussard,
   .satab,
   .notin {
     width: 250px;
     height: 150px; }
   .conclusion {
-    width: 250px; } }
+    width: 250px; }
+  .atelier {
+    width: 200px; }
+  #home-footer {
+    display: none; } }
 
 .menu-btn {
   position: absolute;
@@ -743,6 +755,8 @@ form ::placeholder {
     float: none; }
   .conclusion {
     width: 400px; }
+  .atelier {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -752,12 +766,14 @@ form ::placeholder {
   .reunion {
     width: 250px;
     height: 150px; }
-  #home-footer {
-    display: none; }
   .groussard,
   .satab,
   .notin {
     width: 250px;
     height: 150px; }
   .conclusion {
-    width: 250px; } }
+    width: 250px; }
+  .atelier {
+    width: 200px; }
+  #home-footer {
+    display: none; } }
