@@ -25,14 +25,21 @@
         font-weight: 600;
         border: 1px solid $secondary-color;
         @include easeOut;
-        i {
-            margin-right: 1rem;
-        }
         &:hover {
             background: $secondary-color;
             i {
                 color: set-text-color($primary-color);
             }
+        }
+    }
+    .next {
+        i {
+            margin-left: 1rem;
+        }
+    }
+    .previous {
+        i {
+            margin-right: 1rem;
         }
     }
 }

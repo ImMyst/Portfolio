@@ -238,15 +238,16 @@ main {
     font-weight: 600;
     border: 1px solid #47bb76;
     transition: all 0.3s ease-out; }
-    .prev-next .previous i,
-    .prev-next .next i {
-      margin-right: 1rem; }
     .prev-next .previous:hover,
     .prev-next .next:hover {
       background: #47bb76; }
       .prev-next .previous:hover i,
       .prev-next .next:hover i {
         color: #fff; }
+  .prev-next .next i {
+    margin-left: 1rem; }
+  .prev-next .previous i {
+    margin-right: 1rem; }
 
 .content {
   margin-top: 2rem; }
@@ -514,8 +515,9 @@ form ::placeholder {
   #contact,
   #decouverte,
   #jarvis,
-  #decision
-.ticket,
+  #decision,
+  #bilan2017,
+  .ticket,
   .about-info {
     padding: 1rem; }
   .company {
@@ -773,8 +775,9 @@ form ::placeholder {
   #contact,
   #decouverte,
   #jarvis,
-  #decision
-.ticket,
+  #decision,
+  #bilan2017,
+  .ticket,
   .about-info {
     padding: 1rem; }
   .company {
