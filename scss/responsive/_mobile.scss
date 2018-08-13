@@ -34,9 +34,6 @@
   .conclusion {
     width: 650px;
   }
-  .jarvis {
-    width: 500px;
-  }
 }
 
 @include mediaMd {
@@ -103,7 +100,8 @@
   #methodes,
   #contact,
   #decouverte,
-  #jarvis
+  #jarvis,
+  #decision
   .ticket,
   .about-info {
     padding: 1rem;
@@ -172,6 +170,9 @@
   .jarvis {
     width: 300px;
   }
+  .comptoir {
+    width: 300px;
+  }
   #home-footer {
     margin-top: -4rem;
   }
@@ -198,6 +199,9 @@
     width: 200px;
   }
   .jarvis {
+    width: 200px;
+  }
+  .comptoir {
     width: 200px;
   }
   #home-footer {

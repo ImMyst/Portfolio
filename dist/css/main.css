@@ -299,6 +299,12 @@ main {
   margin-left: auto;
   margin-right: auto; }
 
+.comptoir {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .company {
   display: grid;
   grid-template-columns: auto auto;
@@ -410,9 +416,7 @@ form ::placeholder {
       margin-right: auto;
       margin-bottom: 1rem; }
   .conclusion {
-    width: 650px; }
-  .jarvis {
-    width: 500px; } }
+    width: 650px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -467,7 +471,8 @@ form ::placeholder {
   #methodes,
   #contact,
   #decouverte,
-  #jarvis
+  #jarvis,
+  #decision
 .ticket,
   .about-info {
     padding: 1rem; }
@@ -522,6 +527,8 @@ form ::placeholder {
     width: 300px; }
   .jarvis {
     width: 300px; }
+  .comptoir {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -541,6 +548,8 @@ form ::placeholder {
   .atelier {
     width: 200px; }
   .jarvis {
+    width: 200px; }
+  .comptoir {
     width: 200px; }
   #home-footer {
     display: none; } }
@@ -662,9 +671,7 @@ form ::placeholder {
       margin-right: auto;
       margin-bottom: 1rem; }
   .conclusion {
-    width: 650px; }
-  .jarvis {
-    width: 500px; } }
+    width: 650px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -719,7 +726,8 @@ form ::placeholder {
   #methodes,
   #contact,
   #decouverte,
-  #jarvis
+  #jarvis,
+  #decision
 .ticket,
   .about-info {
     padding: 1rem; }
@@ -774,6 +782,8 @@ form ::placeholder {
     width: 300px; }
   .jarvis {
     width: 300px; }
+  .comptoir {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -793,6 +803,8 @@ form ::placeholder {
   .atelier {
     width: 200px; }
   .jarvis {
+    width: 200px; }
+  .comptoir {
     width: 200px; }
   #home-footer {
     display: none; } }
