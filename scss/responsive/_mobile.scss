@@ -99,6 +99,9 @@
   #borne,
   #methodes,
   #contact,
+  #decouverte,
+  #jarvis,
+  #decision
   .ticket,
   .about-info {
     padding: 1rem;
@@ -161,6 +164,18 @@
   .conclusion {
     width: 400px;
   }
+  .atelier {
+    width: 300px;
+  }
+  .jarvis {
+    width: 300px;
+  }
+  .comptoir {
+    width: 300px;
+  }
+  .boutique {
+    width: 300px;
+  }
   #home-footer {
     margin-top: -4rem;
   }
@@ -174,9 +189,6 @@
     width: 250px;
     height: 150px;
   }
-  #home-footer {
-    display: none;
-  }
   .groussard,
   .satab,
   .notin {
@@ -185,5 +197,20 @@
   }
   .conclusion {
     width: 250px;
+  }
+  .atelier {
+    width: 200px;
+  }
+  .jarvis {
+    width: 200px;
+  }
+  .comptoir {
+    width: 200px;
+  }
+  .boutique {
+    width: 200px;
+  }
+  #home-footer {
+    display: none;
   }
 }

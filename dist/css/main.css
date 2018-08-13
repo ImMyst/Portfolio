@@ -226,38 +226,8 @@ main {
     .ticket a:hover {
       background-color: #47bb76;
       color: #fff; }
-
-.kata {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: left;
-  margin: 0 1rem 1rem 0; }
-
-.zenos {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: right;
-  margin: 0 1rem 0 1rem; }
-
-.borne {
-  margin-right: 2.25rem;
-  float: right;
-  margin: 0 1rem 0 1rem; }
-
-.option {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: left;
-  margin: 0 1rem 1rem 0; }
-
-.reunion {
-  border-radius: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-legend {
-  text-align: center; }
+  .ticket legend {
+    text-align: center; }
 
 .images {
   display: flex;
@@ -282,7 +252,60 @@ legend {
         width: 425px;
         height: 225px; }
 
+.reunion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.kata {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
+
+.zenos {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.atelier {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.borne {
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.option {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
+
 .conclusion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.jarvis {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.comptoir {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.boutique {
   border-radius: 10%;
   display: block;
   margin-left: auto;
@@ -453,7 +476,10 @@ form ::placeholder {
   #borne,
   #methodes,
   #contact,
-  .ticket,
+  #decouverte,
+  #jarvis,
+  #decision
+.ticket,
   .about-info {
     padding: 1rem; }
   .company {
@@ -503,6 +529,14 @@ form ::placeholder {
     float: none; }
   .conclusion {
     width: 400px; }
+  .atelier {
+    width: 300px; }
+  .jarvis {
+    width: 300px; }
+  .comptoir {
+    width: 300px; }
+  .boutique {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -512,15 +546,23 @@ form ::placeholder {
   .reunion {
     width: 250px;
     height: 150px; }
-  #home-footer {
-    display: none; }
   .groussard,
   .satab,
   .notin {
     width: 250px;
     height: 150px; }
   .conclusion {
-    width: 250px; } }
+    width: 250px; }
+  .atelier {
+    width: 200px; }
+  .jarvis {
+    width: 200px; }
+  .comptoir {
+    width: 200px; }
+  .boutique {
+    width: 200px; }
+  #home-footer {
+    display: none; } }
 
 .menu-btn {
   position: absolute;
@@ -693,7 +735,10 @@ form ::placeholder {
   #borne,
   #methodes,
   #contact,
-  .ticket,
+  #decouverte,
+  #jarvis,
+  #decision
+.ticket,
   .about-info {
     padding: 1rem; }
   .company {
@@ -743,6 +788,14 @@ form ::placeholder {
     float: none; }
   .conclusion {
     width: 400px; }
+  .atelier {
+    width: 300px; }
+  .jarvis {
+    width: 300px; }
+  .comptoir {
+    width: 300px; }
+  .boutique {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -752,12 +805,20 @@ form ::placeholder {
   .reunion {
     width: 250px;
     height: 150px; }
-  #home-footer {
-    display: none; }
   .groussard,
   .satab,
   .notin {
     width: 250px;
     height: 150px; }
   .conclusion {
-    width: 250px; } }
+    width: 250px; }
+  .atelier {
+    width: 200px; }
+  .jarvis {
+    width: 200px; }
+  .comptoir {
+    width: 200px; }
+  .boutique {
+    width: 200px; }
+  #home-footer {
+    display: none; } }
