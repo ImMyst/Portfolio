@@ -3,8 +3,6 @@
 
 @include mediaLg {
   .about-info {
-    // grid-template-areas: 'bio' 'sidebio' 'job1' 'job2' 'job3' 'formation1 formation2';
-    // grid-template-columns: repeat(1, 1fr);
     display: block;
     text-align: center;
     .side-info {
@@ -33,6 +31,9 @@
   }
   .conclusion {
     width: 650px;
+  }
+  iframe {
+    width: 700px;
   }
 }
 
@@ -116,15 +117,6 @@
       margin-right: -5rem;
     }
   }
-  .pure-control-group {
-    margin-left: -10rem;
-    margin-right: -10rem;
-    input[type=text],
-    input[type=email],
-    input[type=tel] {
-      margin: auto;
-    }
-  }
   .reunion {
     width: 350px;
     height: 200px;
@@ -177,6 +169,9 @@
   .boutique {
     width: 300px;
   }
+  iframe {
+    width: 500px;
+  }
   #home-footer {
     margin-top: -4rem;
   }
@@ -210,6 +205,9 @@
   }
   .boutique {
     width: 200px;
+  }
+  iframe {
+    width: 400px;
   }
 
   #home-footer {
