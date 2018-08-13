@@ -279,13 +279,13 @@ main {
     .images .links:hover {
       background: #515151; }
     .images .links .groussard,
-    .images .links .satab,
+    .images .links .ckfd,
     .images .links .notin {
       border-radius: 10%;
       transition: all 0.3s ease-out;
       cursor: pointer; }
       .images .links .groussard:hover,
-      .images .links .satab:hover,
+      .images .links .ckfd:hover,
       .images .links .notin:hover {
         width: 425px;
         height: 225px; }
@@ -421,7 +421,7 @@ iframe {
   .images {
     display: block; }
     .images .groussard,
-    .images .satab,
+    .images .ckfd,
     .images .notin {
       display: block;
       margin-left: auto;
@@ -516,7 +516,7 @@ iframe {
   .images {
     display: block; }
     .images .groussard,
-    .images .satab,
+    .images .ckfd,
     .images .notin {
       display: block;
       margin-left: auto;
@@ -551,7 +551,7 @@ iframe {
     width: 250px;
     height: 150px; }
   .groussard,
-  .satab,
+  .ckfd,
   .notin {
     width: 250px;
     height: 150px; }
@@ -680,7 +680,7 @@ iframe {
   .images {
     display: block; }
     .images .groussard,
-    .images .satab,
+    .images .ckfd,
     .images .notin {
       display: block;
       margin-left: auto;
@@ -775,7 +775,7 @@ iframe {
   .images {
     display: block; }
     .images .groussard,
-    .images .satab,
+    .images .ckfd,
     .images .notin {
       display: block;
       margin-left: auto;
@@ -810,7 +810,7 @@ iframe {
     width: 250px;
     height: 150px; }
   .groussard,
-  .satab,
+  .ckfd,
   .notin {
     width: 250px;
     height: 150px; }
