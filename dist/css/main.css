@@ -229,38 +229,6 @@ main {
   .ticket legend {
     text-align: center; }
 
-.kata {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: left;
-  margin: 0 1rem 1rem 0; }
-
-.zenos {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: right;
-  margin: 0 1rem 0 1rem; }
-
-.borne {
-  margin-right: 2.25rem;
-  float: right;
-  margin: 0 1rem 0 1rem; }
-
-.option {
-  border-radius: 10%;
-  margin-right: 2.25rem;
-  float: left;
-  margin: 0 1rem 1rem 0; }
-
-.reunion {
-  border-radius: 10%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-legend {
-  text-align: center; }
-
 .images {
   display: flex;
   justify-content: space-between;
@@ -284,13 +252,48 @@ legend {
         width: 425px;
         height: 225px; }
 
+.reunion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.kata {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
+
+.zenos {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.atelier {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.borne {
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.option {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
+
 .conclusion {
   border-radius: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-.atelier {
+.jarvis {
   border-radius: 10%;
   display: block;
   margin-left: auto;
@@ -407,7 +410,9 @@ form ::placeholder {
       margin-right: auto;
       margin-bottom: 1rem; }
   .conclusion {
-    width: 650px; } }
+    width: 650px; }
+  .jarvis {
+    width: 500px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -461,7 +466,9 @@ form ::placeholder {
   #borne,
   #methodes,
   #contact,
-  .ticket,
+  #decouverte,
+  #jarvis
+.ticket,
   .about-info {
     padding: 1rem; }
   .company {
@@ -513,6 +520,8 @@ form ::placeholder {
     width: 400px; }
   .atelier {
     width: 300px; }
+  .jarvis {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -530,6 +539,8 @@ form ::placeholder {
   .conclusion {
     width: 250px; }
   .atelier {
+    width: 200px; }
+  .jarvis {
     width: 200px; }
   #home-footer {
     display: none; } }
@@ -651,7 +662,9 @@ form ::placeholder {
       margin-right: auto;
       margin-bottom: 1rem; }
   .conclusion {
-    width: 650px; } }
+    width: 650px; }
+  .jarvis {
+    width: 500px; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -705,7 +718,9 @@ form ::placeholder {
   #borne,
   #methodes,
   #contact,
-  .ticket,
+  #decouverte,
+  #jarvis
+.ticket,
   .about-info {
     padding: 1rem; }
   .company {
@@ -757,6 +772,8 @@ form ::placeholder {
     width: 400px; }
   .atelier {
     width: 300px; }
+  .jarvis {
+    width: 300px; }
   #home-footer {
     margin-top: -4rem; } }
 
@@ -774,6 +791,8 @@ form ::placeholder {
   .conclusion {
     width: 250px; }
   .atelier {
+    width: 200px; }
+  .jarvis {
     width: 200px; }
   #home-footer {
     display: none; } }

@@ -34,6 +34,9 @@
   .conclusion {
     width: 650px;
   }
+  .jarvis {
+    width: 500px;
+  }
 }
 
 @include mediaMd {
@@ -99,6 +102,8 @@
   #borne,
   #methodes,
   #contact,
+  #decouverte,
+  #jarvis
   .ticket,
   .about-info {
     padding: 1rem;
@@ -164,6 +169,9 @@
   .atelier {
     width: 300px;
   }
+  .jarvis {
+    width: 300px;
+  }
   #home-footer {
     margin-top: -4rem;
   }
@@ -187,6 +195,9 @@
     width: 250px;
   }
   .atelier {
+    width: 200px;
+  }
+  .jarvis {
     width: 200px;
   }
   #home-footer {
