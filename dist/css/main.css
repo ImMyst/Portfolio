@@ -239,17 +239,16 @@ main {
   float: right;
   margin: 0 1rem 0 1rem; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+.borne {
+  margin-right: 2.25rem;
+  float: right;
+  margin: 0 1rem 0 1rem; }
+
+.option {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
 
 .reunion {
   border-radius: 10%;
@@ -490,8 +489,6 @@ form ::placeholder {
     margin-right: auto;
     align-content: center;
     float: none; }
-  #home-footer {
-    margin-top: -4rem; }
   .images {
     display: block; }
     .images .groussard,
@@ -500,7 +497,16 @@ form ::placeholder {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem; }
+  .borne,
+  .option {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  #home-footer {
+    margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -717,8 +723,6 @@ form ::placeholder {
     margin-right: auto;
     align-content: center;
     float: none; }
-  #home-footer {
-    margin-top: -4rem; }
   .images {
     display: block; }
     .images .groussard,
@@ -727,7 +731,16 @@ form ::placeholder {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem; }
+  .borne,
+  .option {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  #home-footer {
+    margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
