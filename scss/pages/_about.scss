@@ -1,7 +1,7 @@
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2' 'slider0 slider slider slider';
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2';
   grid-template-columns: repeat(4, 4fr);
   overflow-y: hidden;
   .text-grey {
@@ -26,7 +26,6 @@
       .dev-web {
         span {
           font-weight: 600;
-          margin-left: 2rem;
           text-transform: uppercase;
           box-shadow: inset 0 -2px $secondary-color;
         }
@@ -34,23 +33,25 @@
           display: inline-flex;
           padding: 0.5rem;
         }
-        .react {
-          margin-left: 4rem;
-        }
-        .symfony {
-          margin-left: 3rem;
+        .basic,
+        .framework-js,
+        .framework-php {
+          display: flex;
+          justify-content: space-between;
         }
       }
     }
   }
   .bio {
     grid-area: bio;
-    height: 15rem;
+  }
+  .bio-content {
     font-size: 1.5rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
     text-align: justify;
+    margin-bottom: 2rem;
     p {
       font-size: 1.25rem;
     }
@@ -66,7 +67,7 @@
   .job {
     position: relative;
     text-align: justify;
-    top: -67rem;
+    top: -58rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
@@ -80,60 +81,10 @@
       grid-area: job3;
     }
   }
-
-  // .slider {
-  //   position: relative;
-  //   text-align: justify;
-  //   top: -87.2rem;
-  //   background: lighten($primary-color, 5);
-  //   padding: 1rem;
-  //   border-bottom: $secondary-color 5px solid;
-  //   grid-area: slider;
-    
-  //   &-1, &-2, &-3 {
-  //     animation-duration: 25s;
-  //     animation-timing-function: ease-in-out;
-  //     animation-iteration-count: infinite;
-  //     overflow-y: hidden;
-  //   }
-  //   &-1 {
-  //     animation-name: anim-1;
-  //     z-index: -1;
-  //   }
-    
-  //   &-2 {
-  //     animation-name: anim-2;
-  //     z-index: -1;
-  //   }
-    
-  //   &-3 {
-  //     animation-name: anim-3;
-  //     z-index: -1;
-  //   }
-  //   @keyframes anim-1 {
-  //     0%, 8.3% { left: -20%; opacity: 0; }
-  //     8.3%,25% { left: 0%; opacity: 1; }
-  //     33.33%, 100% { left: 110%; opacity: 0; }
-  //   }
-    
-  //   @keyframes anim-2 {
-  //     0%, 33.33% { left: -20%; opacity: 0; }
-  //     41.63%, 58.29% { left: 0%; opacity: 1; }
-  //     66.66%, 100% { left: 110%; opacity: 0; }
-  //   }
-    
-  //   @keyframes anim-3 {
-  //     0%, 66.66% { left: -20%; opacity: 0; }
-  //     74.96%, 91.62% { left: 0%; opacity: 1; }
-  //     100% { left: 110%; opacity: 0; }
-  //   }
-    
-  // }
-
   .formation {
     position: relative;
     text-align: justify;
-    top: -40.35rem;
+    top: -50rem;
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;

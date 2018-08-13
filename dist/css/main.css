@@ -76,7 +76,7 @@ main {
     z-index: -1;
     top: 0;
     left: 0;
-    opacity: 0.3; }
+    opacity: 0.5; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -111,7 +111,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2' 'slider0 slider slider slider';
+  grid-template-areas: 'sidebio bio bio bio' 'job job1 job2 job3' 'formation0 formation1 formation formation2';
   grid-template-columns: repeat(4, 4fr);
   overflow-y: hidden; }
   .about-info .text-grey {
@@ -133,36 +133,37 @@ main {
       line-height: 1.75; }
       .about-info .side-info .content .dev-web span {
         font-weight: 600;
-        margin-left: 2rem;
         text-transform: uppercase;
         box-shadow: inset 0 -2px #47bb76; }
       .about-info .side-info .content .dev-web img {
         display: inline-flex;
         padding: 0.5rem; }
-      .about-info .side-info .content .dev-web .react {
-        margin-left: 4rem; }
-      .about-info .side-info .content .dev-web .symfony {
-        margin-left: 3rem; }
+      .about-info .side-info .content .dev-web .basic,
+      .about-info .side-info .content .dev-web .framework-js,
+      .about-info .side-info .content .dev-web .framework-php {
+        display: flex;
+        justify-content: space-between; }
   .about-info .bio {
-    grid-area: bio;
-    height: 15rem;
+    grid-area: bio; }
+  .about-info .bio-content {
     font-size: 1.5rem;
     background: #515151;
     padding: 1rem;
     border-bottom: #47bb76 5px solid;
-    text-align: justify; }
-    .about-info .bio p {
+    text-align: justify;
+    margin-bottom: 2rem; }
+    .about-info .bio-content p {
       font-size: 1.25rem; }
-    .about-info .bio a {
+    .about-info .bio-content a {
       box-shadow: inset 0 -2px #47bb76;
       transition: all 0.3s ease-out; }
-      .about-info .bio a:hover {
+      .about-info .bio-content a:hover {
         background-color: #47bb76;
         color: #000; }
   .about-info .job {
     position: relative;
     text-align: justify;
-    top: -67rem;
+    top: -58rem;
     background: #515151;
     padding: 1rem;
     border-bottom: #47bb76 5px solid; }
@@ -175,7 +176,7 @@ main {
   .about-info .formation {
     position: relative;
     text-align: justify;
-    top: -40.35rem;
+    top: -50rem;
     background: #515151;
     padding: 1rem;
     border-bottom: #47bb76 5px solid; }
@@ -214,17 +215,11 @@ main {
   font-size: 20px;
   box-shadow: inset 0 -2px 0 0 #47bb76; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+.kata {
+  border-radius: 10%;
+  margin-right: 2.25rem;
+  float: left;
+  margin: 0 1rem 1rem 0; }
 
 .ticket {
   text-align: justify;
@@ -238,41 +233,14 @@ main {
       background-color: #47bb76;
       color: #fff; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+.reunion {
+  border-radius: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
-
-.ticket {
-  text-align: justify;
-  padding: 1.5rem;
-  background: #515151;
-  font-size: 17px; }
-  .ticket a {
-    box-shadow: inset 0 -2px #47bb76;
-    transition: all 0.3s ease-out; }
-    .ticket a:hover {
-      background-color: #47bb76;
-      color: #fff; }
+legend {
+  text-align: center; }
 
 .ticket {
   text-align: justify;
@@ -386,6 +354,19 @@ form ::placeholder {
   font-weight: 600;
   opacity: 0.8; }
 
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about-info {
+    display: block;
+    text-align: center; }
+    .about-info .side-info {
+      margin-bottom: 2rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0;
+      margin-bottom: 1rem; }
+    .about-info .job-3 {
+      margin-bottom: 2rem; } }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -413,18 +394,66 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    display: block;
+    text-align: center;
+    margin-left: -3rem;
+    margin-right: -3rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0; }
+    .about-info .side-info {
+      margin-bottom: 2rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0;
+      margin-bottom: 1rem; }
+    .about-info .job-3 {
+      margin-bottom: 2rem; }
   #articles,
   #difficultes,
   #integration,
+  #bilan,
+  #taches,
+  #borne,
+  #methodes,
   #contact,
-  .ticket {
-    padding: 1rem; } }
+  .ticket,
+  .about-info {
+    padding: 1rem; }
+  .company {
+    display: block;
+    line-height: 1.5; }
+    .company .webqam,
+    .company .psm {
+      margin-left: -5rem;
+      margin-right: -5rem; }
+  .pure-control-group {
+    margin-left: -10rem;
+    margin-right: -10rem; }
+    .pure-control-group input[type=text],
+    .pure-control-group input[type=email],
+    .pure-control-group input[type=tel] {
+      margin: auto; }
+  .reunion {
+    width: 350px;
+    height: 200px; }
+  .kata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  #home-footer {
+    margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .reunion {
+    width: 250px;
+    height: 150px; }
+  #home-footer {
+    display: none; } }
 
 .menu-btn {
   position: absolute;
@@ -520,6 +549,19 @@ form ::placeholder {
 .nav-item:nth-child(5) {
   transition-delay: 0.5s; }
 
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .about-info {
+    display: block;
+    text-align: center; }
+    .about-info .side-info {
+      margin-bottom: 2rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0;
+      margin-bottom: 1rem; }
+    .about-info .job-3 {
+      margin-bottom: 2rem; } }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -547,15 +589,63 @@ form ::placeholder {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'sidebio' 'bio' 'job1' 'job2' 'job3';
-    grid-template-columns: 1fr; }
+    display: block;
+    text-align: center;
+    margin-left: -3rem;
+    margin-right: -3rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0; }
+    .about-info .side-info {
+      margin-bottom: 2rem; }
+    .about-info .job, .about-info .formation {
+      position: relative;
+      top: 0;
+      margin-bottom: 1rem; }
+    .about-info .job-3 {
+      margin-bottom: 2rem; }
   #articles,
   #difficultes,
   #integration,
+  #bilan,
+  #taches,
+  #borne,
+  #methodes,
   #contact,
-  .ticket {
-    padding: 1rem; } }
+  .ticket,
+  .about-info {
+    padding: 1rem; }
+  .company {
+    display: block;
+    line-height: 1.5; }
+    .company .webqam,
+    .company .psm {
+      margin-left: -5rem;
+      margin-right: -5rem; }
+  .pure-control-group {
+    margin-left: -10rem;
+    margin-right: -10rem; }
+    .pure-control-group input[type=text],
+    .pure-control-group input[type=email],
+    .pure-control-group input[type=tel] {
+      margin: auto; }
+  .reunion {
+    width: 350px;
+    height: 200px; }
+  .kata {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    float: none; }
+  #home-footer {
+    margin-top: -4rem; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .reunion {
+    width: 250px;
+    height: 150px; }
+  #home-footer {
+    display: none; } }
