@@ -1,6 +1,11 @@
 @import "variables/variables";
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  ::-moz-selection {
+    color: set-text-color($primary-color);
+    background-color: lighten($secondary-color, 25);
+  }
   ::selection {
     color: set-text-color($primary-color);
     background-color: lighten($secondary-color, 25);

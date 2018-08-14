@@ -2,7 +2,9 @@
     display: grid;
     grid-template-columns: auto auto;
     text-align: center;
-    align-items: stretch;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     padding: 1.5rem 2.5rem;
     .psm,
     .webqam {
@@ -17,12 +19,15 @@
             border: 3px solid $secondary-color;
             border-radius: 50%;
             background-color: lighten($primary-color, 10);
-            transform: scale(0.6);
+            -webkit-transform: scale(0.6);
+                    transform: scale(0.6);
             :hover {
-                transform: scale(0.7);
+                -webkit-transform: scale(0.7);
+                        transform: scale(0.7);
             }
             img {
                 border: none;
+                -webkit-transition: 0.2s ease-in-out;
                 transition: 0.2s ease-in-out;
             }
         }
