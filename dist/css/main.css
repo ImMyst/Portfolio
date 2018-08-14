@@ -621,7 +621,7 @@ iframe {
   .boutique {
     width: 200px; }
   iframe {
-    width: 400px; }
+    width: 300px; }
   #home-footer {
     display: none; } }
 
@@ -649,8 +649,8 @@ iframe {
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
-      -webkit-transform: rotate(-45deg) translate(10px, -9px);
-      transform: rotate(-45deg) translate(10px, -9px); }
+      -webkit-transform: rotate(-45deg) translate(10px, -10.5px);
+      transform: rotate(-45deg) translate(10px, -10.5px); }
 
 .menu {
   position: fixed;
@@ -917,6 +917,6 @@ iframe {
   .boutique {
     width: 200px; }
   iframe {
-    width: 400px; }
+    width: 300px; }
   #home-footer {
     display: none; } }
