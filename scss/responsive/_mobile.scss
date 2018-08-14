@@ -39,7 +39,9 @@
 
 @include mediaMd {
   main {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     .lg-heading {
       line-height: 1;
@@ -52,17 +54,20 @@
     width: 100%;
     min-height: 0;
     &.show {
-      transform: translate3d(0, 0, 0);
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
     }
   }
   .menu-nav {
     height: 75vh;
-    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
     font-size: 24px;
   }
   .menu-branding {
     height: 25vh;
-    transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
     .portrait {
       background: $portrait-small;
       width: 150px;
@@ -125,14 +130,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     float: none;
   }
   .zenos {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     float: none;
   }
   .images {
@@ -151,7 +158,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    align-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     float: none;
   }
   .conclusion {
