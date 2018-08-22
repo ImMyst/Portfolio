@@ -445,6 +445,30 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+.boxes-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .boxes-icons a {
+    font-size: 1.25rem;
+    border: 2px solid #fff;
+    padding: 1.5rem 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; }
+    .boxes-icons a:hover {
+      padding: .5rem .5rem;
+      background: #47bb76; }
+
 iframe {
   display: block;
   margin-top: 5rem;
