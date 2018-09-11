@@ -40,8 +40,8 @@
 @include mediaMd {
   main {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
     .lg-heading {
       line-height: 1;
@@ -55,19 +55,19 @@
     min-height: 0;
     &.show {
       -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
   }
   .menu-nav {
     height: 75vh;
     -webkit-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
     font-size: 24px;
   }
   .menu-branding {
     height: 25vh;
     -webkit-transform: translate3d(100%, 0, 0);
-            transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
     .portrait {
       background: $portrait-small;
       width: 150px;
@@ -131,7 +131,7 @@
     margin-left: auto;
     margin-right: auto;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     float: none;
   }
   .zenos {
@@ -139,7 +139,7 @@
     margin-left: auto;
     margin-right: auto;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     float: none;
   }
   .images {
@@ -159,7 +159,7 @@
     margin-left: auto;
     margin-right: auto;
     -ms-flex-line-pack: center;
-        align-content: center;
+    align-content: center;
     float: none;
   }
   .conclusion {
@@ -177,6 +177,11 @@
   .boutique {
     width: 300px;
   }
+  .boxes-icons {
+    a {
+      margin-bottom: -2rem;
+    }
+  }
   iframe {
     width: 500px;
   }
@@ -188,6 +193,11 @@
 @include mediaSm {
   main#home h1 {
     margin-top: 10vh;
+  }
+  .about-info {
+    .content {
+      padding: 0;
+    }
   }
   .reunion {
     width: 250px;
@@ -215,9 +225,8 @@
     width: 200px;
   }
   iframe {
-    width: 300px;
+    width: 275px;
   }
-
   #home-footer {
     display: none;
   }
