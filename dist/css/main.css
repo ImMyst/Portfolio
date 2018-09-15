@@ -28,7 +28,8 @@ h5 {
   h5.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: #494949; }
+    background: #494949;
+    border-radius: 3px; }
 
 a {
   color: white;
@@ -102,7 +103,8 @@ main {
   height: 60px; }
   #home-footer span {
     background-color: #444;
-    font-weight: 400; }
+    font-weight: 400;
+    border-radius: 3px; }
     #home-footer span i {
       color: crimson; }
     #home-footer span a {
@@ -135,7 +137,8 @@ main {
     grid-area: sidebio;
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #47bb76 5px solid; }
+    border-bottom: #47bb76 5px solid;
+    border-radius: 3px; }
     .about-info .side-info .content {
       padding: 0 5rem 0rem 5rem;
       line-height: 1.75; }
@@ -166,7 +169,8 @@ main {
     padding: 1rem;
     border-bottom: #47bb76 5px solid;
     text-align: justify;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    border-radius: 3px; }
     .about-info .bio-content p {
       font-size: 1.25rem; }
     .about-info .bio-content a {
@@ -183,7 +187,8 @@ main {
     top: -58rem;
     background: #515151;
     padding: 1rem;
-    border-bottom: #47bb76 5px solid; }
+    border-bottom: #47bb76 5px solid;
+    border-radius: 3px; }
     .about-info .job-1 {
       grid-area: job1; }
     .about-info .job-2 {
@@ -195,7 +200,8 @@ main {
     top: -50rem;
     background: #515151;
     padding: 1rem;
-    border-bottom: #47bb76 5px solid; }
+    border-bottom: #47bb76 5px solid;
+    border-radius: 3px; }
     .about-info .formation p {
       text-align: justify; }
     .about-info .formation-1 {
@@ -207,7 +213,8 @@ main {
   background: #515151;
   padding: 1.25rem 2.25rem;
   border-bottom: #47bb76 5px solid;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  border-radius: 3px; }
 
 .article .btn {
   text-align: center; }
@@ -216,6 +223,7 @@ main {
   padding: 0.3rem;
   text-transform: uppercase;
   border: 2px solid #47bb76;
+  border-radius: 3px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
@@ -241,6 +249,7 @@ main {
   text-transform: uppercase;
   font-weight: 600;
   border: 1px solid #47bb76;
+  border-radius: 3px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
   .return i {
@@ -263,6 +272,7 @@ main {
     text-transform: uppercase;
     font-weight: 600;
     border: 1px solid #47bb76;
+    border-radius: 3px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
     .prev-next .previous:hover,
@@ -283,7 +293,8 @@ main {
   text-align: justify;
   padding: 1.5rem;
   background: #515151;
-  font-size: 17px; }
+  font-size: 17px;
+  border-radius: 3px; }
   .ticket a {
     -webkit-box-shadow: inset 0 -2px #47bb76;
     box-shadow: inset 0 -2px #47bb76;
@@ -397,7 +408,8 @@ main {
     margin-right: 1.5rem;
     background: #515151;
     border-bottom: #47bb76 5px solid;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    border-radius: 3px; }
     .company .psm__link,
     .company .webqam__link {
       overflow: hidden;
@@ -436,6 +448,7 @@ main {
     border: 2px solid #fff;
     padding: 1.5rem 2.5rem;
     margin-bottom: 1rem;
+    border-radius: 3px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
     .boxes div:hover {
@@ -463,6 +476,7 @@ main {
     padding: 1.5rem 1.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    border-radius: 3px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
     .boxes-icons a:hover {
@@ -474,7 +488,8 @@ iframe {
   margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #47bb76; }
+  border: 2px solid #47bb76;
+  border-radius: 3px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .about-info {
@@ -666,8 +681,13 @@ iframe {
     height: 5px;
     margin: 0 0 8px 0;
     background: #fff;
+    border-radius: 25px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
+    .menu-btn .btn-line:nth-child(2) {
+      width: 27px; }
+    .menu-btn .btn-line:nth-child(3) {
+      width: 32px; }
   .menu-btn.close {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
@@ -678,7 +698,8 @@ iframe {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       -webkit-transform: rotate(-45deg) translate(10px, -10.5px);
-      transform: rotate(-45deg) translate(10px, -10.5px); }
+      transform: rotate(-45deg) translate(10px, -10.5px);
+      width: 38px; }
 
 .menu {
   position: fixed;
