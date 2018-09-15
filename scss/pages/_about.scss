@@ -21,6 +21,7 @@
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    border-radius: 3px;
     .content {
       padding: 0 5rem 0rem 5rem;
       line-height: 1.75;
@@ -60,6 +61,7 @@
     border-bottom: $secondary-color 5px solid;
     text-align: justify;
     margin-bottom: 2rem;
+    border-radius: 3px;
     p {
       font-size: 1.25rem;
     }
@@ -80,6 +82,7 @@
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
+    border-radius: 3px;
     &-1 {
       grid-area: job1;
     }
@@ -96,6 +99,7 @@
     background: lighten($primary-color, 5);
     padding: 1rem;
     border-bottom: $secondary-color 5px solid;
+    border-radius: 3px;
     p {
       text-align: justify;
     }

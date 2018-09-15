@@ -4,6 +4,7 @@
     padding: 1.25rem 2.25rem;
     border-bottom: $secondary-color 5px solid;
     margin-bottom: 1rem;
+    border-radius: 3px;
   }
   .btn {
     text-align: center;
@@ -12,6 +13,7 @@
     padding: 0.3rem;
     text-transform: uppercase;
     border: 2px solid $secondary-color;
+    border-radius: 3px;
     @include easeOut
   }
   .read-more:hover {
