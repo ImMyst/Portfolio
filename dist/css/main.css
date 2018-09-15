@@ -666,8 +666,13 @@ iframe {
     height: 5px;
     margin: 0 0 8px 0;
     background: #fff;
+    border-radius: 25px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out; }
+    .menu-btn .btn-line:nth-child(2) {
+      width: 27px; }
+    .menu-btn .btn-line:nth-child(3) {
+      width: 32px; }
   .menu-btn.close {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
@@ -678,7 +683,8 @@ iframe {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
       -webkit-transform: rotate(-45deg) translate(10px, -10.5px);
-      transform: rotate(-45deg) translate(10px, -10.5px); }
+      transform: rotate(-45deg) translate(10px, -10.5px);
+      width: 38px; }
 
 .menu {
   position: fixed;
