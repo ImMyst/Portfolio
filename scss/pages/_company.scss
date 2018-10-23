@@ -14,6 +14,9 @@
         border-bottom: $secondary-color 5px solid;
         margin-bottom: 1rem;
         border-radius: 3px;
+        .company-title, .company-description {
+            font-family: 'Bitter', serif;
+        }
         &__link {
             overflow: hidden;
             display: inline-block;
@@ -35,5 +38,6 @@
     }
     p {
         text-align: justify;
+        line-height: 1.7;
     }
 }
