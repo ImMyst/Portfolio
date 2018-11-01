@@ -6,6 +6,9 @@
     margin-bottom: 1rem;
     border-radius: 3px;
   }
+  .article-small-content {
+    line-height: 1.7;
+  }
   .btn {
     text-align: center;
   }
@@ -25,11 +28,12 @@
     background-color: #50d78a;
   }
   .article-title {
+    font-family: 'Bitter', serif;
+    font-size: 1.5rem;
     a {
       @include easeOut
     }
     a:hover {
-      font-size: 20px;
       -webkit-box-shadow: inset 0 -2px 0 0 $secondary-color;
               box-shadow: inset 0 -2px 0 0 $secondary-color;
     }
