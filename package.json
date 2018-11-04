@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-blog",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "\"# Portfolio\"",
-  "keywords": ["portfolio", "me", "titouan", "cv"],
+  "keywords": ["portfolio", "me", "titouan", "cv", "developer"],
   "author": "Titouan.G / ImMyst",
   "private": true,
   "scripts": {
