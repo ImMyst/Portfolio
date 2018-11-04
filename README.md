@@ -29,7 +29,7 @@ The website is now hosted online by **Netlify**, you can find it here : https://
 
 ## What is this ?
 
-My website is a small, simple and easy one. I use only **HTML**, **SASS**, **Pure CSS** and some **native Javascript** and **particles.js** for the homepage for now, but I will upgrade it so it looks really great as the days passed. I don't put some advanced frameworks as VueJS (only implemented yet) or backend like NodeJS or any database. Yeah I know, i'ts lame :no_mouth:.
+My website is a small, simple and easy one. I use only **HTML**, **SASS**, **Pure CSS** and some **native Javascript** and for the homepage for now, but I will upgrade it so it looks really great as the days passed. I don't put some advanced frameworks as VueJS (only implemented yet) or backend like NodeJS or any database. Yeah I know, i'ts lame :no_mouth:.
 <br><br>
 
 ## What about me ?
