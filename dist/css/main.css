@@ -252,7 +252,7 @@ main {
   text-align: center; }
 
 .article .read-more {
-  padding: 0.3rem;
+  padding: 0.5rem;
   text-transform: uppercase;
   border: 2px solid #47bb76;
   border-radius: 3px;
@@ -261,8 +261,7 @@ main {
 
 .article .read-more:hover {
   background-color: #47bb76;
-  padding: 0.5rem;
-  font-size: 17px !important; }
+  padding: 0.5rem; }
 
 .article .read-more:active {
   background-color: #50d78a; }
