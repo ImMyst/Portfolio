@@ -20,8 +20,8 @@ h4,
 h5 {
   margin: 0;
   &.lg-heading {
-    font-size: 4.5rem;    
-    font-family: 'Imprima', sans-serif;
+    font-size: 4.5rem;
+    font-family: 'Poppins', sans-serif;
 
   }
   &.sm-heading {
@@ -30,6 +30,10 @@ h5 {
     background: lighten($primary-color, 2);
     border-radius: 3px;
   }
+}
+
+h2 {
+  font-weight: 500;
 }
 
 // Links

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
-@import url("https://fonts.googleapis.com/css?family=Imprima:regular");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Bitter:regular,italic,700");
 * {
   -webkit-box-sizing: border-box;
@@ -23,7 +22,7 @@ h5 {
   h4.lg-heading,
   h5.lg-heading {
     font-size: 4.5rem;
-    font-family: 'Imprima', sans-serif; }
+    font-family: 'Poppins', sans-serif; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading,
@@ -33,6 +32,9 @@ h5 {
     padding: 0.2rem 1rem;
     background: #494949;
     border-radius: 3px; }
+
+h2 {
+  font-weight: 500; }
 
 a {
   color: white;
@@ -56,7 +58,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/home-image.jpg);
@@ -445,7 +447,8 @@ main {
     .company .psm .company-title, .company .psm .company-description,
     .company .webqam .company-title,
     .company .webqam .company-description {
-      font-family: 'Bitter', serif; }
+      font-family: 'Bitter', serif;
+      font-weight: bold; }
     .company .psm__link,
     .company .webqam__link {
       overflow: hidden;
