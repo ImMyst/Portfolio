@@ -13,7 +13,7 @@
     text-align: center;
   }
   .read-more {
-    padding: 0.3rem;
+    padding: 0.5rem;
     text-transform: uppercase;
     border: 2px solid $secondary-color;
     border-radius: 3px;
@@ -22,7 +22,6 @@
   .read-more:hover {
     background-color: $secondary-color;
     padding: 0.5rem;
-    font-size: 17px !important;
   }
   .read-more:active {
     background-color: #50d78a;
