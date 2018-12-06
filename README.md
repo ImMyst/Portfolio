@@ -24,8 +24,9 @@
 
 Welcome to my site, feel free to navigate through it, and **contact me** if you have any _suggestions_, _questions_ or if you want to **recruit me**. Or maybe if you just want to contact me because you need it :wink:.
 
-The website is now hosted online by **Netlify**, you can find it here : https://titouan-galvani.netlify.com/ !
+The website is now hosted online by **Netlify**, you can find it here : https://titou-galva.netlify.com/ !
 <br><br>
+A new version is currently _WIP_
 
 ## What is this ?
 
