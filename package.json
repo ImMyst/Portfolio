@@ -2,7 +2,13 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "\"# Portfolio\"",
-  "keywords": ["portfolio", "me", "titouan", "cv", "developer"],
+  "keywords": [
+    "portfolio",
+    "me",
+    "titouan",
+    "cv",
+    "developer"
+  ],
   "author": "Titouan.G / ImMyst",
   "private": true,
   "scripts": {
@@ -18,8 +24,8 @@
   },
   "homepage": "https://github.com/ImMyst/Portfolio#readme",
   "devDependencies": {
-    "node-sass": "^4.9.2",
-    "webpack": "^4.16.3",
-    "webpack-cli": "^3.1.0"
+    "node-sass": "^4.10.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
   }
 }
