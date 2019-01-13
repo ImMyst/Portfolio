@@ -44,7 +44,7 @@ header {
   position: fixed;
   z-index: 2;
   width: 100%;
-  border-top: 6px #47bb76 solid; }
+  border-top: 4px #47bb76 solid; }
 
 #main-footer {
   text-align: center;
