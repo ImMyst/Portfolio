@@ -25,7 +25,7 @@
   "homepage": "https://github.com/ImMyst/Portfolio#readme",
   "devDependencies": {
     "node-sass": "^4.11.0",
-    "webpack": "^4.28.3",
-    "webpack-cli": "^3.1.2"
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
